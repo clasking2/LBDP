@@ -1,0 +1,692 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plan de Mejoramiento Educativo - Liceo</title>
+  <meta name="description" content="Conoce nuestro Plan de Mejoramiento Educativo (PME)">
+  <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="./assets/css/liceo.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Topbar -->
+  <!-- Topbar Component -->
+<div class="topbar bg-primary-liceo text-white py-1 small" style="z-index:1060">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="d-flex gap-3 align-items-center">
+      <a href="mailto:contacto@liceo.edu.cl" class="d-inline-flex align-items-center gap-1">
+        <i class="bi bi-envelope icon"></i>
+        <span>contacto@liceo.edu.cl</span>
+      </a>
+      <a href="tel:+56712330863" class="d-none d-sm-inline-flex align-items-center gap-1">
+        <i class="bi bi-telephone icon"></i>
+        <span>71 233 0863</span>
+      </a>
+    </div>
+    <div class="d-flex gap-2">
+      <a href="#" aria-label="Facebook" class="social-link">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="#" aria-label="Instagram" class="social-link">
+        <i class="bi bi-instagram"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Navbar -->
+  <!-- Navbar Component -->
+<nav class="navbar navbar-expand-lg bg-white sticky-top navbar-liceo" aria-label="Principal">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="./index.html" aria-label="Inicio">
+      <span class="rounded" style="width:32px;height:32px;background:var(--aqua);display:inline-block"></span>
+      <strong id="brandName">Liceo</strong>
+    </a>
+    
+    <!-- Mobile menu button mejorado -->
+    <button class="navbar-toggler border-0 p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Abrir menú">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <!-- Mobile close button -->
+      <div class="d-lg-none d-flex justify-content-between align-items-center p-3 border-bottom mb-2">
+        <span class="fw-semibold text-primary">Menú de Navegación</span>
+        <button type="button" class="btn-close" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-label="Cerrar menú"></button>
+      </div>
+      
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navList">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Inicio</a>
+        </li>
+
+        <!-- Institución (mega) -->
+        <li class="nav-item dropdown position-static">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Institución</a>
+          <div class="dropdown-menu dropdown-mega shadow-lg border-0 p-4">
+            <div class="row">
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Nuestra Historia</div>
+                <a href="./nosotros-historia.html">Historia del Liceo</a>
+                <a href="./nosotros-mision.html">Misión, Visión y Sellos</a>
+              </div>
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Comunidad</div>
+                <a href="./nosotros-comunidad.html">Comunidad Educativa</a>
+                <a href="./nosotros-pme.html">Plan de Mejoramiento</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Vida Escolar -->
+        <li class="nav-item dropdown position-static">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Vida Escolar</a>
+          <div class="dropdown-menu dropdown-mega shadow-lg border-0 p-4">
+            <div class="row">
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Académico</div>
+                <a href="./oferta.html">Oferta Educativa</a>
+                <a href="./calendario-evaluaciones.html">Calendario Evaluaciones</a>
+              </div>
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Actividades</div>
+                <a href="./calendario-actividades.html">Calendario de Actividades</a>
+                <a href="./talleres.html">Talleres Extraescolares</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./noticias.html">Noticias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./uniforme.html">Uniforme</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./documentos.html">Documentos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contacto.html">Contacto</a>
+        </li>
+      </ul>
+
+      <!-- CTA button -->
+      <div class="navbar-nav">
+        <div class="nav-item d-none d-lg-block">
+          <a href="./admision.html" class="btn btn-primary-liceo btn-sm">
+            <i class="bi bi-person-plus me-1"></i>Postula Aquí
+          </a>
+        </div>
+        
+        <!-- Mobile CTA -->
+        <div class="nav-item d-lg-none mt-3 mb-2">
+          <a href="./admision.html" class="btn btn-primary-liceo w-100">
+            <i class="bi bi-person-plus me-2"></i>Proceso de Admisión
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+// Fix para menús desplegables en modo responsive
+document.addEventListener('DOMContentLoaded', function() {
+  // Solo en dispositivos móviles
+  if (window.innerWidth < 992) {
+    const dropdownToggles = document.querySelectorAll('.navbar .dropdown-toggle');
+    
+    dropdownToggles.forEach(toggle => {
+      toggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        const dropdownMenu = this.nextElementSibling;
+        const isShown = dropdownMenu.classList.contains('show');
+        
+        // Cerrar todos los otros dropdowns
+        document.querySelectorAll('.navbar .dropdown-menu').forEach(menu => {
+          menu.classList.remove('show');
+        });
+        
+        // Toggle el dropdown actual
+        if (!isShown) {
+          dropdownMenu.classList.add('show');
+          this.setAttribute('aria-expanded', 'true');
+        } else {
+          dropdownMenu.classList.remove('show');
+          this.setAttribute('aria-expanded', 'false');
+        }
+      });
+    });
+    
+    // Cerrar dropdown al hacer clic en un link
+    document.querySelectorAll('.navbar .dropdown-menu a').forEach(link => {
+      link.addEventListener('click', function() {
+        document.querySelectorAll('.navbar .dropdown-menu').forEach(menu => {
+          menu.classList.remove('show');
+        });
+      });
+    });
+  }
+});
+</script>
+
+
+  <!-- Hero Section -->
+  <section class="hero-section" style="height: 60vh; min-height: 400px;">
+    <div class="hero-gradient"></div>
+    <img src="./assets/img/admision.jpg" alt="Plan de Mejoramiento Educativo" class="parallax-img" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
+    <div class="position-absolute top-50 start-50 translate-middle hero-content">
+      <div class="container-fluid px-3">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center hero-text-container">
+            <div class="hero-text-backdrop">
+              <h1 class="hero-title reveal">Plan de <span class="text-gradient-aqua">Mejoramiento</span></h1>
+              <p class="hero-subtitle reveal">Estrategias para la excelencia educativa</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contenido PME -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <!-- Introducción -->
+          <div class="text-center mb-5 reveal">
+            <h2 class="h3 text-gradient mb-4">¿Qué es el PME?</h2>
+            <p class="lead text-muted">
+              El Plan de Mejoramiento Educativo (PME) es un instrumento de planificación estratégica que articula y orienta las acciones que implementaremos para mejorar los aprendizajes de todos nuestros estudiantes y avanzar hacia una educación de calidad.
+            </p>
+          </div>
+
+          <!-- Dimensiones del PME -->
+          <div class="mb-5">
+            <h3 class="h4 text-gradient mb-4 text-center reveal">Dimensiones de Mejora</h3>
+            <div class="row g-4">
+              <div class="col-md-6 reveal">
+                <div class="card card-feature h-100">
+                  <div class="card-body p-4">
+                    <div class="card-icon mx-auto mb-3">
+                      <i class="bi bi-book"></i>
+                    </div>
+                    <h4 class="h5 mb-3 text-center">Gestión Pedagógica</h4>
+                    <ul class="text-muted mb-0">
+                      <li>Actualización curricular permanente</li>
+                      <li>Estrategias de enseñanza innovadoras</li>
+                      <li>Evaluación para el aprendizaje</li>
+                      <li>Apoyo a estudiantes con necesidades especiales</li>
+                      <li>Desarrollo profesional docente</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 reveal">
+                <div class="card card-feature h-100">
+                  <div class="card-body p-4">
+                    <div class="card-icon card-icon-aqua mx-auto mb-3">
+                      <i class="bi bi-diagram-3"></i>
+                    </div>
+                    <h4 class="h5 mb-3 text-center">Liderazgo Escolar</h4>
+                    <ul class="text-muted mb-0">
+                      <li>Visión estratégica compartida</li>
+                      <li>Planificación y gestión de resultados</li>
+                      <li>Liderazgo distribuido</li>
+                      <li>Gestión de recursos y proyectos</li>
+                      <li>Alianzas estratégicas</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 reveal">
+                <div class="card card-feature h-100">
+                  <div class="card-body p-4">
+                    <div class="card-icon mx-auto mb-3">
+                      <i class="bi bi-people"></i>
+                    </div>
+                    <h4 class="h5 mb-3 text-center">Convivencia Escolar</h4>
+                    <ul class="text-muted mb-0">
+                      <li>Ambiente seguro y acogedor</li>
+                      <li>Formación ciudadana y en valores</li>
+                      <li>Participación y vida democrática</li>
+                      <li>Prevención de conflictos</li>
+                      <li>Bienestar socioemocional</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 reveal">
+                <div class="card card-feature h-100">
+                  <div class="card-body p-4">
+                    <div class="card-icon card-icon-aqua mx-auto mb-3">
+                      <i class="bi bi-building"></i>
+                    </div>
+                    <h4 class="h5 mb-3 text-center">Gestión de Recursos</h4>
+                    <ul class="text-muted mb-0">
+                      <li>Optimización de recursos financieros</li>
+                      <li>Infraestructura y equipamiento</li>
+                      <li>Recursos pedagógicos actualizados</li>
+                      <li>Tecnología educativa</li>
+                      <li>Sustentabilidad y medio ambiente</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Metas Estratégicas 2025 -->
+          <div class="mb-5 reveal">
+            <h3 class="h4 text-gradient mb-4 text-center">Metas Estratégicas 2025</h3>
+            <p class="text-center text-muted mb-4">Objetivos y metas organizadas por dimensiones clave para el desarrollo institucional</p>
+
+            <!-- Dimensión: Gestión Pedagógica -->
+            <div class="card card-feature mb-4 reveal">
+              <div class="card-body p-4">
+                <h4 class="h5 mb-4 text-center">
+                  <i class="bi bi-book-half me-2 text-primary-liceo"></i>
+                  <span class="text-primary-liceo">Dimensión: Gestión Pedagógica</span>
+                </h4>
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <div class="border-start border-primary border-4 ps-3">
+                      <h5 class="h6 text-primary-liceo mb-2">Objetivo Estratégico</h5>
+                      <p class="text-muted small mb-0">
+                        Fortalecer los procesos pedagógicos de los docentes potenciando la gestión educacional y la promoción de espacios de aprendizaje para los estudiantes, generando ambientes favorables que permitan desarrollar habilidades y actitudes que tributen a los aprendizajes, para que los estudiantes adquieran las competencias que les permitan desarrollar su proyecto de vida.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="border-start border-success border-4 ps-3">
+                      <h5 class="h6 text-success mb-2">Meta Estratégica</h5>
+                      <p class="text-muted small mb-0">
+                        Mantener el 80 % de los estudiantes trabajando en forma colaborativa, elevando las habilidades de pensamiento de los estudiantes para potenciar interpretación en los diferentes contenidos.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dimensión: Liderazgo -->
+            <div class="card card-feature mb-4 reveal">
+              <div class="card-body p-4">
+                <h4 class="h5 mb-4 text-center">
+                  <i class="bi bi-people me-2 text-primary-liceo"></i>
+                  <span class="text-primary-liceo">Dimensión: Liderazgo</span>
+                </h4>
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <div class="border-start border-primary border-4 ps-3">
+                      <h5 class="h6 text-primary-liceo mb-2">Objetivo Estratégico</h5>
+                      <p class="text-muted small mb-0">
+                        Potenciar el rol del Equipo Directivo, procurando un sistema efectivo que permita la articulación de los diferentes estamentos, hacia la mejora, propiciando un clima laboral que propugne el diálogo, el respeto y la colaboración para el mejoramiento y cumplimiento de los principios institucionales declarados en el PEI.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="border-start border-success border-4 ps-3">
+                      <h5 class="h6 text-success mb-2">Meta Estratégica</h5>
+                      <p class="text-muted small mb-0">
+                        Lograr el 90 % de cumplimiento de las acciones contenidas en PEI y PME.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dimensión: Formación y Convivencia -->
+            <div class="card card-feature mb-4 reveal">
+              <div class="card-body p-4">
+                <h4 class="h5 mb-4 text-center">
+                  <i class="bi bi-heart me-2 text-primary-liceo"></i>
+                  <span class="text-primary-liceo">Dimensión: Formación y Convivencia</span>
+                </h4>
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <div class="border-start border-primary border-4 ps-3">
+                      <h5 class="h6 text-primary-liceo mb-2">Objetivo Estratégico</h5>
+                      <p class="text-muted small mb-0">
+                        Promover una cultura de participación, que incida significativamente en el desarrollo integral de los y las estudiantes, contribuyendo a generar un mejor proyecto de vida, considerando su dimensión personal, social y educativa, que potencie el trabajo en equipo, la convivencia armónica y el respeto por el otro, para lograr aprendizajes en calidad en todos los educandos.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="border-start border-success border-4 ps-3">
+                      <h5 class="h6 text-success mb-2">Meta Estratégica</h5>
+                      <p class="text-muted small mb-0">
+                        Ejecutar el 90 % de las actividades propuestas por el equipo directivo escolar, equipo técnico pedagógico, actividades relacionadas con lo colaborativo y participantes. El 80 % de los estudiantes, reconocerán la importancia que permanezca lo propio.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dimensión: Gestión de Recursos -->
+            <div class="card card-feature mb-4 reveal">
+              <div class="card-body p-4">
+                <h4 class="h5 mb-4 text-center">
+                  <i class="bi bi-gear me-2 text-primary-liceo"></i>
+                  <span class="text-primary-liceo">Dimensión: Gestión de Recursos</span>
+                </h4>
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <div class="border-start border-primary border-4 ps-3">
+                      <h5 class="h6 text-primary-liceo mb-2">Objetivo Estratégico</h5>
+                      <p class="text-muted small mb-0">
+                        Gestionar los recursos necesarios para dar cumplimiento a los requerimientos educativos, con el fin de generar las condiciones adecuadas para los diferentes estamentos, complemento con los requerimientos necesarios, para una buena práctica pedagógica.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="border-start border-success border-4 ps-3">
+                      <h5 class="h6 text-success mb-2">Meta Estratégica</h5>
+                      <p class="text-muted small mb-0">
+                        Proporcionar los recursos humanos, materiales y financieros están disponibles en forma oportuna para los requerimientos de cada estamentos propuestos.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Acciones y Metas -->
+          <div class="mb-5 reveal">
+            <div class="card border-0 shadow-lg">
+              <div class="card-body p-5">
+                <h3 class="h4 text-gradient mb-4 text-center">Metas 2025</h3>
+                <div class="row g-4">
+                  <div class="col-md-3 col-6 text-center">
+                    <div class="display-4 fw-bold text-primary mb-2">95%</div>
+                    <p class="text-muted small mb-0">Asistencia promedio</p>
+                  </div>
+                  <div class="col-md-3 col-6 text-center">
+                    <div class="display-4 fw-bold text-success mb-2">100%</div>
+                    <p class="text-muted small mb-0">Docentes capacitados</p>
+                  </div>
+                  <div class="col-md-3 col-6 text-center">
+                    <div class="display-4 fw-bold text-info mb-2">85%</div>
+                    <p class="text-muted small mb-0">Satisfacción familias</p>
+                  </div>
+                  <div class="col-md-3 col-6 text-center">
+                    <div class="display-4 fw-bold text-warning mb-2">90%</div>
+                    <p class="text-muted small mb-0">Promoción escolar</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Seguimiento y Evaluación -->
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6 mb-4 mb-lg-0 reveal">
+              <h3 class="h4 text-gradient mb-3">Seguimiento y Evaluación</h3>
+              <p class="text-muted mb-3">
+                El PME es evaluado de manera continua a través de:
+              </p>
+              <ul class="text-muted">
+                <li><strong>Monitoreo trimestral:</strong> Revisión de indicadores y ajustes necesarios</li>
+                <li><strong>Evaluación semestral:</strong> Análisis de avances y resultados parciales</li>
+                <li><strong>Evaluación anual:</strong> Valoración integral del cumplimiento de objetivos</li>
+                <li><strong>Participación comunitaria:</strong> Consultas a estudiantes, familias y docentes</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 reveal">
+              <img src="./assets/img/seguimiento.jpg" alt="Seguimiento" class="img-fluid rounded-4 shadow-lg">
+            </div>
+          </div>
+
+          <!-- CTA -->
+          <div class="text-center reveal">
+            <h3 class="h4 mb-3">¿Quieres conocer más detalles del PME?</h3>
+            <p class="text-muted mb-4">Descarga el documento completo o contáctanos</p>
+            <div class="d-flex gap-3 justify-content-center flex-wrap">
+              <a href="./documentos.html" class="btn btn-primary-liceo btn-lg px-4">
+                <i class="bi bi-file-earmark-pdf me-2"></i>Descargar PME
+              </a>
+              <a href="./contacto.html" class="btn btn-outline-primary-liceo btn-lg px-4">
+                <i class="bi bi-envelope me-2"></i>Contáctanos
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <!-- Footer Moderno y Dinámico -->
+<footer class="footer-modern">
+  <!-- Sección Principal del Footer -->
+  <div class="footer-main">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Columna 1: Identidad del Liceo -->
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand">
+            <div class="d-flex align-items-center gap-3 mb-4">
+              <div class="footer-logo-circle">
+                <i class="bi bi-mortarboard-fill"></i>
+              </div>
+              <div>
+                <h3 class="footer-brand-title mb-0">Liceo</h3>
+                <p class="footer-brand-subtitle mb-0">Excelencia Educativa</p>
+              </div>
+            </div>
+            <p class="footer-description">
+              Formando líderes del mañana con valores, conocimiento y compromiso. Una comunidad educativa que impulsa el desarrollo integral de cada estudiante.
+            </p>
+            
+            <!-- Estadísticas Rápidas -->
+            <div class="footer-stats">
+              <div class="footer-stat-item">
+                <i class="bi bi-award-fill"></i>
+                <div>
+                  <strong>50+</strong>
+                  <span>Años de Historia</span>
+                </div>
+              </div>
+              <div class="footer-stat-item">
+                <i class="bi bi-people-fill"></i>
+                <div>
+                  <strong>500+</strong>
+                  <span>Estudiantes</span>
+                </div>
+              </div>
+              <div class="footer-stat-item">
+                <i class="bi bi-book-fill"></i>
+                <div>
+                  <strong>25+</strong>
+                  <span>Profesores</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Columna 2: Enlaces Rápidos - Institución -->
+        <div class="col-lg-2 col-md-6">
+          <h4 class="footer-title">
+            <i class="bi bi-building me-2"></i>Institución
+          </h4>
+          <ul class="footer-links">
+            <li><a href="./index.html"><i class="bi bi-house-door"></i> Inicio</a></li>
+            <li><a href="./nosotros-historia.html"><i class="bi bi-clock-history"></i> Nuestra Historia</a></li>
+            <li><a href="./nosotros-mision.html"><i class="bi bi-bullseye"></i> Misión, Visión y Sellos</a></li>
+            <li><a href="./nosotros-pme.html"><i class="bi bi-journal-text"></i> PME</a></li>
+            <li><a href="./nosotros-comunidad.html"><i class="bi bi-people"></i> Comunidad</a></li>
+            <li><a href="./documentos.html"><i class="bi bi-file-earmark-text"></i> Documentos</a></li>
+          </ul>
+        </div>
+        
+        <!-- Columna 3: Enlaces Rápidos - Educación -->
+        <div class="col-lg-2 col-md-6">
+          <h4 class="footer-title">
+            <i class="bi bi-mortarboard me-2"></i>Educación
+          </h4>
+          <ul class="footer-links">
+            <li><a href="./oferta.html"><i class="bi bi-book"></i> Oferta Educativa</a></li>
+            <li><a href="./talleres.html"><i class="bi bi-palette"></i> Talleres</a></li>
+            <li><a href="./calendario-evaluaciones.html"><i class="bi bi-calendar-check"></i> Evaluaciones</a></li>
+            <li><a href="./uniforme.html"><i class="bi bi-person-badge"></i> Uniforme</a></li>
+            <li><a href="./admision.html"><i class="bi bi-door-open"></i> Admisión</a></li>
+            <li><a href="./noticias.html"><i class="bi bi-newspaper"></i> Noticias</a></li>
+          </ul>
+        </div>
+        
+        <!-- Columna 4: Contacto y Redes -->
+        <div class="col-lg-4 col-md-6">
+          <h4 class="footer-title">
+            <i class="bi bi-chat-dots me-2"></i>Contáctanos
+          </h4>
+          
+          <!-- Información de Contacto -->
+          <div class="footer-contact-info">
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Dirección</strong>
+                <p>4 Norte 0417<br>Talca, Chile</p>
+              </div>
+            </div>
+            
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-envelope-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Email</strong>
+                <p><a href="mailto:contacto@liceo.edu.cl">contacto@liceo.edu.cl</a></p>
+              </div>
+            </div>
+            
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Teléfonos</strong>
+                <p><a href="tel:+56712330863">71 233 0863</a><br>
+                <a href="tel:+56979259924">97 925 9924</a></p>
+              </div>
+            </div>
+            
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-clock-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Horario</strong>
+                <p>Lun - Vie: 8:00 - 18:00 hrs</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Redes Sociales -->
+          <div class="footer-social">
+            <h5 class="footer-social-title">Síguenos</h5>
+            <div class="footer-social-links">
+              <a href="#" class="footer-social-link facebook" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" class="footer-social-link instagram" aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="#" class="footer-social-link twitter" aria-label="Twitter">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a href="#" class="footer-social-link youtube" aria-label="YouTube">
+                <i class="bi bi-youtube"></i>
+              </a>
+              <a href="#" class="footer-social-link linkedin" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Barra Inferior del Footer -->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center text-lg-start mb-3 mb-lg-0">
+          <p class="footer-copyright mb-0">
+            <i class="bi bi-c-circle me-1"></i>
+            <span id="year"></span> <strong>Liceo</strong>. Todos los derechos reservados.
+          </p>
+        </div>
+        <div class="col-lg-6 text-center text-lg-end">
+          <div class="footer-legal-links">
+            <a href="./sitemap.html">
+              <i class="bi bi-diagram-3"></i> Mapa del Sitio
+            </a>
+            <span class="footer-divider">|</span>
+            <a href="./privacidad.html">
+              <i class="bi bi-shield-check"></i> Privacidad
+            </a>
+            <span class="footer-divider">|</span>
+            <a href="./terminos.html">
+              <i class="bi bi-file-text"></i> Términos
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Decoración de Fondo -->
+  <div class="footer-decoration">
+    <div class="footer-wave"></div>
+  </div>
+</footer>
+
+<!-- Script para actualizar el año automáticamente -->
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+
+  <button class="back-to-top" id="backTop" aria-label="Ir arriba" title="Ir arriba"><i class="bi bi-chevron-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('visible'); });
+    },{threshold:.2});
+    document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+    
+    const backTop = document.getElementById('backTop');
+    window.addEventListener('scroll',()=>{
+      const nav = document.querySelector('.navbar-liceo');
+      nav.classList.toggle('navbar-elevated', window.scrollY>12);
+      backTop.classList.toggle('show', window.scrollY>240);
+    });
+    backTop.addEventListener('click',()=> window.scrollTo({top:0, behavior:'smooth'}));
+  </script>
+  <!-- <script src="./js/load-components.js"></script> (Inlined by build script) -->
+</body>
+</html>
+
+
+
+

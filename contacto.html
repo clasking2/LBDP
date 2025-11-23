@@ -1,0 +1,679 @@
+﻿<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Liceo - Contacto</title>
+  <meta name="description" content="Contacto del Liceo: formulario y ubicación.">
+  <meta property="og:title" content="Contacto - Liceo">
+  <meta property="og:description" content="Escríbenos y revisa nuestra ubicación.">
+  <meta property="og:type" content="website">
+  <meta property="og:image"
+    content="./assets/img/campus-moderno.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="mask-icon" href="./assets/img/safari-pinned-tab.svg" color="#1418c4">
+  <meta name="theme-color" content="#1418c4">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="./assets/css/liceo.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Topbar -->
+  <!-- Topbar Component -->
+<div class="topbar bg-primary-liceo text-white py-1 small" style="z-index:1060">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="d-flex gap-3 align-items-center">
+      <a href="mailto:contacto@liceo.edu.cl" class="d-inline-flex align-items-center gap-1">
+        <i class="bi bi-envelope icon"></i>
+        <span>contacto@liceo.edu.cl</span>
+      </a>
+      <a href="tel:+56712330863" class="d-none d-sm-inline-flex align-items-center gap-1">
+        <i class="bi bi-telephone icon"></i>
+        <span>71 233 0863</span>
+      </a>
+    </div>
+    <div class="d-flex gap-2">
+      <a href="#" aria-label="Facebook" class="social-link">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="#" aria-label="Instagram" class="social-link">
+        <i class="bi bi-instagram"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Navbar -->
+  <!-- Navbar Component -->
+<nav class="navbar navbar-expand-lg bg-white sticky-top navbar-liceo" aria-label="Principal">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="./index.html" aria-label="Inicio">
+      <span class="rounded" style="width:32px;height:32px;background:var(--aqua);display:inline-block"></span>
+      <strong id="brandName">Liceo</strong>
+    </a>
+    
+    <!-- Mobile menu button mejorado -->
+    <button class="navbar-toggler border-0 p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Abrir menú">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <!-- Mobile close button -->
+      <div class="d-lg-none d-flex justify-content-between align-items-center p-3 border-bottom mb-2">
+        <span class="fw-semibold text-primary">Menú de Navegación</span>
+        <button type="button" class="btn-close" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-label="Cerrar menú"></button>
+      </div>
+      
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navList">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Inicio</a>
+        </li>
+
+        <!-- Institución (mega) -->
+        <li class="nav-item dropdown position-static">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Institución</a>
+          <div class="dropdown-menu dropdown-mega shadow-lg border-0 p-4">
+            <div class="row">
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Nuestra Historia</div>
+                <a href="./nosotros-historia.html">Historia del Liceo</a>
+                <a href="./nosotros-mision.html">Misión, Visión y Sellos</a>
+              </div>
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Comunidad</div>
+                <a href="./nosotros-comunidad.html">Comunidad Educativa</a>
+                <a href="./nosotros-pme.html">Plan de Mejoramiento</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Vida Escolar -->
+        <li class="nav-item dropdown position-static">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Vida Escolar</a>
+          <div class="dropdown-menu dropdown-mega shadow-lg border-0 p-4">
+            <div class="row">
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Académico</div>
+                <a href="./oferta.html">Oferta Educativa</a>
+                <a href="./calendario-evaluaciones.html">Calendario Evaluaciones</a>
+              </div>
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Actividades</div>
+                <a href="./calendario-actividades.html">Calendario de Actividades</a>
+                <a href="./talleres.html">Talleres Extraescolares</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./noticias.html">Noticias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./uniforme.html">Uniforme</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./documentos.html">Documentos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contacto.html">Contacto</a>
+        </li>
+      </ul>
+
+      <!-- CTA button -->
+      <div class="navbar-nav">
+        <div class="nav-item d-none d-lg-block">
+          <a href="./admision.html" class="btn btn-primary-liceo btn-sm">
+            <i class="bi bi-person-plus me-1"></i>Postula Aquí
+          </a>
+        </div>
+        
+        <!-- Mobile CTA -->
+        <div class="nav-item d-lg-none mt-3 mb-2">
+          <a href="./admision.html" class="btn btn-primary-liceo w-100">
+            <i class="bi bi-person-plus me-2"></i>Proceso de Admisión
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+// Fix para menús desplegables en modo responsive
+document.addEventListener('DOMContentLoaded', function() {
+  // Solo en dispositivos móviles
+  if (window.innerWidth < 992) {
+    const dropdownToggles = document.querySelectorAll('.navbar .dropdown-toggle');
+    
+    dropdownToggles.forEach(toggle => {
+      toggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        const dropdownMenu = this.nextElementSibling;
+        const isShown = dropdownMenu.classList.contains('show');
+        
+        // Cerrar todos los otros dropdowns
+        document.querySelectorAll('.navbar .dropdown-menu').forEach(menu => {
+          menu.classList.remove('show');
+        });
+        
+        // Toggle el dropdown actual
+        if (!isShown) {
+          dropdownMenu.classList.add('show');
+          this.setAttribute('aria-expanded', 'true');
+        } else {
+          dropdownMenu.classList.remove('show');
+          this.setAttribute('aria-expanded', 'false');
+        }
+      });
+    });
+    
+    // Cerrar dropdown al hacer clic en un link
+    document.querySelectorAll('.navbar .dropdown-menu a').forEach(link => {
+      link.addEventListener('click', function() {
+        document.querySelectorAll('.navbar .dropdown-menu').forEach(menu => {
+          menu.classList.remove('show');
+        });
+      });
+    });
+  }
+});
+</script>
+
+
+  <!-- Hero Section -->
+  <section class="hero-section" style="height: 60vh; min-height: 400px;">
+    <div class="hero-gradient"></div>
+    <img src="./assets/img/contacto.jpg"
+      alt="Contacto" class="parallax-img"
+      style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
+    <div class="position-absolute top-50 start-50 translate-middle hero-content">
+      <div class="container-fluid px-3">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center hero-text-container">
+            <div class="hero-text-backdrop">
+              <h1 class="hero-title reveal">Contáctanos</h1>
+              <p class="hero-subtitle reveal">Estamos aquí para responder tus consultas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container py-4">
+    <nav aria-label="breadcrumb" class="mb-3">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+      </ol>
+    </nav>
+
+
+    <div class="row g-4">
+      <!-- Formulario de Contacto -->
+      <div class="col-lg-6">
+        <div class="card card-feature">
+          <div class="card-body p-4">
+            <h2 class="h4 text-primary-liceo mb-4">
+              <i class="bi bi-chat-left-text me-2"></i>Envíanos un Mensaje
+            </h2>
+
+            <form id="contactForm" aria-label="Formulario de contacto" class="needs-validation" novalidate>
+              <div class="mb-3">
+                <label for="nombre" class="form-label">
+                  <i class="bi bi-person me-2"></i>Nombre Completo
+                </label>
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                <div class="invalid-feedback">Por favor ingresa tu nombre.</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">
+                  <i class="bi bi-envelope me-2"></i>Correo Electrónico
+                </label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="tu@email.com" required>
+                <div class="invalid-feedback">Por favor ingresa un correo válido.</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="telefono" class="form-label">
+                  <i class="bi bi-telephone me-2"></i>Teléfono (Opcional)
+                </label>
+                <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="+56 9 1234 5678">
+              </div>
+
+              <div class="mb-3">
+                <label for="asunto" class="form-label">
+                  <i class="bi bi-tag me-2"></i>Asunto
+                </label>
+                <select class="form-select" id="asunto" name="asunto" required>
+                  <option value="" selected disabled>Selecciona un asunto</option>
+                  <option value="Información General">Información General</option>
+                  <option value="Proceso de Admisión">Proceso de Admisión</option>
+                  <option value="Consulta Académica">Consulta Académica</option>
+                  <option value="Talleres Extraescolares">Talleres Extraescolares</option>
+                  <option value="Documentos">Documentos</option>
+                  <option value="Otro">Otro</option>
+                </select>
+                <div class="invalid-feedback">Por favor selecciona un asunto.</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">
+                  <i class="bi bi-chat-dots me-2"></i>Mensaje
+                </label>
+                <textarea id="mensaje" name="mensaje" class="form-control" rows="6"
+                  placeholder="Escribe tu mensaje aquí..." required></textarea>
+                <div class="invalid-feedback">Por favor escribe tu mensaje.</div>
+              </div>
+
+              <button class="btn btn-primary-liceo w-100" type="submit" id="submitBtn">
+                <i class="bi bi-send me-2"></i>Enviar Mensaje
+              </button>
+            </form>
+
+            <!-- Alertas -->
+            <div class="alert alert-success mt-3 d-none" role="alert" id="successAlert">
+              <i class="bi bi-check-circle-fill me-2"></i>
+              <strong>¡Mensaje enviado!</strong> Nos pondremos en contacto contigo pronto.
+            </div>
+
+            <div class="alert alert-danger mt-3 d-none" role="alert" id="errorAlert">
+              <i class="bi bi-exclamation-triangle-fill me-2"></i>
+              <strong>Error al enviar.</strong> Por favor intenta nuevamente o contáctanos directamente por email.
+            </div>
+
+            <div class="alert alert-info mt-3" role="alert">
+              <i class="bi bi-info-circle me-2"></i>
+              <small>También puedes contactarnos directamente a <a
+                  href="mailto:contacto@liceo.edu.cl">contacto@liceo.edu.cl</a> o llamarnos al <a
+                  href="tel:+56223456789">+56 2 2345 6789</a></small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Información de Contacto y Mapa -->
+      <div class="col-lg-6">
+        <!-- Información de Contacto -->
+        <div class="card card-feature mb-4">
+          <div class="card-body p-4">
+            <h2 class="h4 text-primary-liceo mb-4">
+              <i class="bi bi-info-circle me-2"></i>Información de Contacto
+            </h2>
+
+            <div class="mb-3">
+              <div class="d-flex align-items-start gap-3">
+                <div class="bg-primary bg-opacity-10 rounded-3 p-3">
+                  <i class="bi bi-geo-alt-fill text-primary" style="font-size: 1.5rem;"></i>
+                </div>
+                <div>
+                  <h3 class="h6 text-primary-liceo mb-1">Dirección</h3>
+                  <p class="mb-0 text-muted">4 Norte 0417<br>Talca, Chile</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <div class="d-flex align-items-start gap-3">
+                <div class="bg-primary bg-opacity-10 rounded-3 p-3">
+                  <i class="bi bi-envelope-fill text-primary" style="font-size: 1.5rem;"></i>
+                </div>
+                <div>
+                  <h3 class="h6 text-primary-liceo mb-1">Email</h3>
+                  <p class="mb-0">
+                    <a href="mailto:contacto@liceo.edu.cl" class="text-decoration-none">contacto@liceo.edu.cl</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <div class="d-flex align-items-start gap-3">
+                <div class="bg-primary bg-opacity-10 rounded-3 p-3">
+                  <i class="bi bi-telephone-fill text-primary" style="font-size: 1.5rem;"></i>
+                </div>
+                <div>
+                  <h3 class="h6 text-primary-liceo mb-1">Teléfonos</h3>
+                  <p class="mb-0">
+                    <a href="tel:+56712330863" class="text-decoration-none">71 233 0863</a><br>
+                    <a href="tel:+56979259924" class="text-decoration-none">97 925 9924</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="d-flex align-items-start gap-3">
+                <div class="bg-primary bg-opacity-10 rounded-3 p-3">
+                  <i class="bi bi-clock-fill text-primary" style="font-size: 1.5rem;"></i>
+                </div>
+                <div>
+                  <h3 class="h6 text-primary-liceo mb-1">Horario de Atención</h3>
+                  <p class="mb-0 text-muted">
+                    Lunes - Viernes: 8:00 - 18:00 hrs<br>
+                    Sábado: 9:00 - 13:00 hrs
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mapa -->
+        <div class="card card-feature">
+          <div class="card-body p-0">
+            <iframe title="Ubicación del Liceo" class="w-100 rounded" height="360" style="border:0;" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" allowfullscreen
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.666005123768!2d-70.648269!3d-33.436943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c59b9f2b7a9f%3A0x7f7d5d2b3c1bc6e1!2sSantiago%20de%20Chile!5e0!3m2!1ses!2scl!4v1700000000000">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <button class="back-to-top" id="backTop" aria-label="Ir arriba" title="Ir arriba"><i
+      class="bi bi-chevron-up"></i></button>
+
+  <!-- Footer -->
+  <!-- Footer Moderno y Dinámico -->
+<footer class="footer-modern">
+  <!-- Sección Principal del Footer -->
+  <div class="footer-main">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Columna 1: Identidad del Liceo -->
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand">
+            <div class="d-flex align-items-center gap-3 mb-4">
+              <div class="footer-logo-circle">
+                <i class="bi bi-mortarboard-fill"></i>
+              </div>
+              <div>
+                <h3 class="footer-brand-title mb-0">Liceo</h3>
+                <p class="footer-brand-subtitle mb-0">Excelencia Educativa</p>
+              </div>
+            </div>
+            <p class="footer-description">
+              Formando líderes del mañana con valores, conocimiento y compromiso. Una comunidad educativa que impulsa el desarrollo integral de cada estudiante.
+            </p>
+            
+            <!-- Estadísticas Rápidas -->
+            <div class="footer-stats">
+              <div class="footer-stat-item">
+                <i class="bi bi-award-fill"></i>
+                <div>
+                  <strong>50+</strong>
+                  <span>Años de Historia</span>
+                </div>
+              </div>
+              <div class="footer-stat-item">
+                <i class="bi bi-people-fill"></i>
+                <div>
+                  <strong>500+</strong>
+                  <span>Estudiantes</span>
+                </div>
+              </div>
+              <div class="footer-stat-item">
+                <i class="bi bi-book-fill"></i>
+                <div>
+                  <strong>25+</strong>
+                  <span>Profesores</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Columna 2: Enlaces Rápidos - Institución -->
+        <div class="col-lg-2 col-md-6">
+          <h4 class="footer-title">
+            <i class="bi bi-building me-2"></i>Institución
+          </h4>
+          <ul class="footer-links">
+            <li><a href="./index.html"><i class="bi bi-house-door"></i> Inicio</a></li>
+            <li><a href="./nosotros-historia.html"><i class="bi bi-clock-history"></i> Nuestra Historia</a></li>
+            <li><a href="./nosotros-mision.html"><i class="bi bi-bullseye"></i> Misión, Visión y Sellos</a></li>
+            <li><a href="./nosotros-pme.html"><i class="bi bi-journal-text"></i> PME</a></li>
+            <li><a href="./nosotros-comunidad.html"><i class="bi bi-people"></i> Comunidad</a></li>
+            <li><a href="./documentos.html"><i class="bi bi-file-earmark-text"></i> Documentos</a></li>
+          </ul>
+        </div>
+        
+        <!-- Columna 3: Enlaces Rápidos - Educación -->
+        <div class="col-lg-2 col-md-6">
+          <h4 class="footer-title">
+            <i class="bi bi-mortarboard me-2"></i>Educación
+          </h4>
+          <ul class="footer-links">
+            <li><a href="./oferta.html"><i class="bi bi-book"></i> Oferta Educativa</a></li>
+            <li><a href="./talleres.html"><i class="bi bi-palette"></i> Talleres</a></li>
+            <li><a href="./calendario-evaluaciones.html"><i class="bi bi-calendar-check"></i> Evaluaciones</a></li>
+            <li><a href="./uniforme.html"><i class="bi bi-person-badge"></i> Uniforme</a></li>
+            <li><a href="./admision.html"><i class="bi bi-door-open"></i> Admisión</a></li>
+            <li><a href="./noticias.html"><i class="bi bi-newspaper"></i> Noticias</a></li>
+          </ul>
+        </div>
+        
+        <!-- Columna 4: Contacto y Redes -->
+        <div class="col-lg-4 col-md-6">
+          <h4 class="footer-title">
+            <i class="bi bi-chat-dots me-2"></i>Contáctanos
+          </h4>
+          
+          <!-- Información de Contacto -->
+          <div class="footer-contact-info">
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Dirección</strong>
+                <p>4 Norte 0417<br>Talca, Chile</p>
+              </div>
+            </div>
+            
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-envelope-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Email</strong>
+                <p><a href="mailto:contacto@liceo.edu.cl">contacto@liceo.edu.cl</a></p>
+              </div>
+            </div>
+            
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Teléfonos</strong>
+                <p><a href="tel:+56712330863">71 233 0863</a><br>
+                <a href="tel:+56979259924">97 925 9924</a></p>
+              </div>
+            </div>
+            
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-clock-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Horario</strong>
+                <p>Lun - Vie: 8:00 - 18:00 hrs</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Redes Sociales -->
+          <div class="footer-social">
+            <h5 class="footer-social-title">Síguenos</h5>
+            <div class="footer-social-links">
+              <a href="#" class="footer-social-link facebook" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" class="footer-social-link instagram" aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="#" class="footer-social-link twitter" aria-label="Twitter">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a href="#" class="footer-social-link youtube" aria-label="YouTube">
+                <i class="bi bi-youtube"></i>
+              </a>
+              <a href="#" class="footer-social-link linkedin" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Barra Inferior del Footer -->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center text-lg-start mb-3 mb-lg-0">
+          <p class="footer-copyright mb-0">
+            <i class="bi bi-c-circle me-1"></i>
+            <span id="year"></span> <strong>Liceo</strong>. Todos los derechos reservados.
+          </p>
+        </div>
+        <div class="col-lg-6 text-center text-lg-end">
+          <div class="footer-legal-links">
+            <a href="./sitemap.html">
+              <i class="bi bi-diagram-3"></i> Mapa del Sitio
+            </a>
+            <span class="footer-divider">|</span>
+            <a href="./privacidad.html">
+              <i class="bi bi-shield-check"></i> Privacidad
+            </a>
+            <span class="footer-divider">|</span>
+            <a href="./terminos.html">
+              <i class="bi bi-file-text"></i> Términos
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Decoración de Fondo -->
+  <div class="footer-decoration">
+    <div class="footer-wave"></div>
+  </div>
+</footer>
+
+<!-- Script para actualizar el año automáticamente -->
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <script>
+    // Inicializar EmailJS con tu Public Key
+    // IMPORTANTE: Reemplaza 'YOUR_PUBLIC_KEY' con tu clave pública de EmailJS
+    // Puedes obtenerla en: https://dashboard.emailjs.com/admin/account
+    emailjs.init('YOUR_PUBLIC_KEY');
+
+    // Manejo del formulario de contacto
+    document.addEventListener('DOMContentLoaded', function () {
+      const form = document.getElementById('contactForm');
+      const submitBtn = document.getElementById('submitBtn');
+      const successAlert = document.getElementById('successAlert');
+      const errorAlert = document.getElementById('errorAlert');
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        // Validar formulario
+        if (!form.checkValidity()) {
+          e.stopPropagation();
+          form.classList.add('was-validated');
+          return;
+        }
+
+        // Deshabilitar botón y mostrar loading
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Enviando...';
+
+        // Ocultar alertas previas
+        successAlert.classList.add('d-none');
+        errorAlert.classList.add('d-none');
+
+        // Preparar datos del formulario
+        const formData = {
+          nombre: document.getElementById('nombre').value.trim(),
+          email: document.getElementById('email').value.trim(),
+          telefono: document.getElementById('telefono').value.trim() || 'No proporcionado',
+          asunto: document.getElementById('asunto').value,
+          mensaje: document.getElementById('mensaje').value.trim(),
+          fecha: new Date().toLocaleDateString('es-CL', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+          })
+        };
+
+        // IMPORTANTE: Reemplaza 'YOUR_SERVICE_ID' y 'YOUR_TEMPLATE_ID' con tus IDs de EmailJS
+        // Los puedes obtener en: https://dashboard.emailjs.com/admin
+        emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData)
+          .then(function (response) {
+            console.log('Email enviado exitosamente!', response.status, response.text);
+
+            // Mostrar mensaje de éxito
+            successAlert.classList.remove('d-none');
+
+            // Limpiar formulario
+            form.reset();
+            form.classList.remove('was-validated');
+
+            // Scroll suave hacia la alerta de éxito
+            successAlert.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+            // Restaurar botón
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = '<i class="bi bi-send me-2"></i>Enviar Mensaje';
+          })
+          .catch(function (error) {
+            console.error('Error al enviar email:', error);
+
+            // Mostrar mensaje de error
+            errorAlert.classList.remove('d-none');
+
+            // Scroll suave hacia la alerta de error
+            errorAlert.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+            // Restaurar botón
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = '<i class="bi bi-send me-2"></i>Enviar Mensaje';
+          });
+      });
+
+    });
+  </script>
+
+  <!-- <script src="./js/load-components.js"></script> (Inlined by build script) -->
+</body>
+
+</html>
+
+

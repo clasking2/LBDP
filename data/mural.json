@@ -1,0 +1,123 @@
+[
+  {
+    "id": "m1",
+    "title": "Reunión de Apoderados - Noviembre",
+    "body": "Se convoca a reunión de apoderados el jueves 28 de noviembre a las 19:00 hrs en sala de clases. Asistencia obligatoria. Se tratarán temas académicos del segundo semestre.",
+    "cat": "Comunicados",
+    "pinned": true,
+    "createdAt": "2025-11-01T10:00:00Z"
+  },
+  {
+    "id": "m2",
+    "title": "Feria de Ciencias 2025",
+    "body": "Viernes 15 de noviembre de 9:00 a 13:00 hrs, presentación de proyectos científicos en el gimnasio. Todos los cursos participan. Se invita a la comunidad educativa.",
+    "cat": "Eventos",
+    "pinned": true,
+    "createdAt": "2025-10-28T14:30:00Z"
+  },
+  {
+    "id": "m3",
+    "title": "Entrega de Notas Segundo Semestre",
+    "body": "Recordatorio: entrega de notas del segundo semestre el 20 de noviembre. Disponibles en plataforma digital desde las 14:00 hrs.",
+    "cat": "Académico",
+    "pinned": false,
+    "createdAt": "2025-10-25T09:15:00Z"
+  },
+  {
+    "id": "m4",
+    "title": "Uso de Uniforme Completo",
+    "body": "Se recuerda a estudiantes y apoderados que el uso del uniforme completo es obligatorio según reglamento interno. Incluye zapatos negros y presentación personal adecuada.",
+    "cat": "Recordatorio",
+    "pinned": false,
+    "createdAt": "2025-10-20T08:00:00Z"
+  },
+  {
+    "id": "m5",
+    "title": "Operativo Dental Gratuito",
+    "body": "Los días 5 y 6 de noviembre habrá operativo dental gratuito en enfermería. Horario: 9:00 a 15:00 hrs. Traer autorización firmada por apoderado.",
+    "cat": "Comunicados",
+    "pinned": false,
+    "createdAt": "2025-10-18T11:20:00Z"
+  },
+  {
+    "id": "m6",
+    "title": "Torneo Deportivo Interescolar",
+    "body": "El liceo participará en torneo de fútbol y básquetbol el sábado 12 de noviembre en Estadio Municipal. Hora de salida: 8:30 hrs desde el establecimiento.",
+    "cat": "Eventos",
+    "pinned": false,
+    "createdAt": "2025-10-15T16:45:00Z"
+  },
+  {
+    "id": "m7",
+    "title": "Taller de Robótica - Cupos Disponibles",
+    "body": "Quedan cupos disponibles para taller de robótica los martes y jueves de 15:00 a 17:00 hrs. Inscripciones en inspectoría hasta el 8 de noviembre.",
+    "cat": "Académico",
+    "pinned": false,
+    "createdAt": "2025-10-12T13:30:00Z"
+  },
+  {
+    "id": "m8",
+    "title": "Celebración Aniversario del Liceo",
+    "body": "El viernes 22 de noviembre celebramos 25 años del liceo. Habrá actividades especiales, acto cívico y convivencia. Jornada culmina a las 13:00 hrs.",
+    "cat": "Eventos",
+    "pinned": true,
+    "createdAt": "2025-10-10T09:00:00Z"
+  },
+  {
+    "id": "m9",
+    "title": "Beneficio Pase Escolar TNE",
+    "body": "Renovación de Tarjeta Nacional Estudiantil (TNE) disponible en JUNAEB. Estudiantes deben actualizar datos en portal estudiantes.junaeb.cl antes del 30 de noviembre.",
+    "cat": "Comunicados",
+    "pinned": false,
+    "createdAt": "2025-10-08T10:15:00Z"
+  },
+  {
+    "id": "m10",
+    "title": "Charla Orientación Vocacional",
+    "body": "Para estudiantes de 3° y 4° medio: charla de orientación vocacional el miércoles 13 de noviembre a las 14:30 hrs en auditorio. Asistencia obligatoria.",
+    "cat": "Académico",
+    "pinned": false,
+    "createdAt": "2025-10-05T15:00:00Z"
+  },
+  {
+    "id": "m11",
+    "title": "Ensayo PSU/PAES",
+    "body": "Ensayo general PSU/PAES para 4° medio el sábado 16 de noviembre de 9:00 a 13:00 hrs. Traer lápiz grafito, goma y cédula de identidad.",
+    "cat": "Académico",
+    "pinned": false,
+    "createdAt": "2025-10-03T12:00:00Z"
+  },
+  {
+    "id": "m12",
+    "title": "Cambio de Horario - Invierno",
+    "body": "Desde el lunes 4 de noviembre cambio de horario de invierno. Jornada tarde comienza a las 13:30 hrs. Favor llegar puntualmente.",
+    "cat": "Recordatorio",
+    "pinned": false,
+    "createdAt": "2025-10-01T08:30:00Z"
+  },
+  {
+    "id": "m13",
+    "title": "Feria del Libro Usado",
+    "body": "Viernes 8 de noviembre: feria del libro usado en patio principal durante recreos. Traer libros en buen estado para intercambiar. Fomento a la lectura.",
+    "cat": "Eventos",
+    "pinned": false,
+    "createdAt": "2025-09-28T14:00:00Z"
+  },
+  {
+    "id": "m14",
+    "title": "Taller para Padres: Acompañamiento Escolar",
+    "body": "Invitamos a apoderados a taller 'Cómo apoyar a mis hijos en sus estudios' el martes 12 de noviembre a las 19:00 hrs en biblioteca. Inscripción previa.",
+    "cat": "Comunicados",
+    "pinned": false,
+    "createdAt": "2025-09-25T11:00:00Z"
+  },
+  {
+    "id": "m15",
+    "title": "Postulación Becas y Beneficios 2026",
+    "body": "Proceso de postulación a becas JUNAEB 2026 abierto hasta el 30 de noviembre. Más información en oficina de asistente social o en junaeb.cl",
+    "cat": "Recordatorio",
+    "pinned": false,
+    "createdAt": "2025-09-20T09:30:00Z"
+  }
+]
+

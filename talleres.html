@@ -1,0 +1,738 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Talleres Extraescolares - Liceo</title>
+  <meta name="description" content="Conoce nuestros talleres extraescolares">
+  <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="./assets/css/liceo.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Topbar -->
+  <!-- Topbar Component -->
+<div class="topbar bg-primary-liceo text-white py-1 small" style="z-index:1060">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="d-flex gap-3 align-items-center">
+      <a href="mailto:contacto@liceo.edu.cl" class="d-inline-flex align-items-center gap-1">
+        <i class="bi bi-envelope icon"></i>
+        <span>contacto@liceo.edu.cl</span>
+      </a>
+      <a href="tel:+56712330863" class="d-none d-sm-inline-flex align-items-center gap-1">
+        <i class="bi bi-telephone icon"></i>
+        <span>71 233 0863</span>
+      </a>
+    </div>
+    <div class="d-flex gap-2">
+      <a href="#" aria-label="Facebook" class="social-link">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="#" aria-label="Instagram" class="social-link">
+        <i class="bi bi-instagram"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Navbar -->
+  <!-- Navbar Component -->
+<nav class="navbar navbar-expand-lg bg-white sticky-top navbar-liceo" aria-label="Principal">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="./index.html" aria-label="Inicio">
+      <span class="rounded" style="width:32px;height:32px;background:var(--aqua);display:inline-block"></span>
+      <strong id="brandName">Liceo</strong>
+    </a>
+    
+    <!-- Mobile menu button mejorado -->
+    <button class="navbar-toggler border-0 p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Abrir menú">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <!-- Mobile close button -->
+      <div class="d-lg-none d-flex justify-content-between align-items-center p-3 border-bottom mb-2">
+        <span class="fw-semibold text-primary">Menú de Navegación</span>
+        <button type="button" class="btn-close" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-label="Cerrar menú"></button>
+      </div>
+      
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navList">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Inicio</a>
+        </li>
+
+        <!-- Institución (mega) -->
+        <li class="nav-item dropdown position-static">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Institución</a>
+          <div class="dropdown-menu dropdown-mega shadow-lg border-0 p-4">
+            <div class="row">
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Nuestra Historia</div>
+                <a href="./nosotros-historia.html">Historia del Liceo</a>
+                <a href="./nosotros-mision.html">Misión, Visión y Sellos</a>
+              </div>
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Comunidad</div>
+                <a href="./nosotros-comunidad.html">Comunidad Educativa</a>
+                <a href="./nosotros-pme.html">Plan de Mejoramiento</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Vida Escolar -->
+        <li class="nav-item dropdown position-static">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Vida Escolar</a>
+          <div class="dropdown-menu dropdown-mega shadow-lg border-0 p-4">
+            <div class="row">
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Académico</div>
+                <a href="./oferta.html">Oferta Educativa</a>
+                <a href="./calendario-evaluaciones.html">Calendario Evaluaciones</a>
+              </div>
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Actividades</div>
+                <a href="./calendario-actividades.html">Calendario de Actividades</a>
+                <a href="./talleres.html">Talleres Extraescolares</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./noticias.html">Noticias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./uniforme.html">Uniforme</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./documentos.html">Documentos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contacto.html">Contacto</a>
+        </li>
+      </ul>
+
+      <!-- CTA button -->
+      <div class="navbar-nav">
+        <div class="nav-item d-none d-lg-block">
+          <a href="./admision.html" class="btn btn-primary-liceo btn-sm">
+            <i class="bi bi-person-plus me-1"></i>Postula Aquí
+          </a>
+        </div>
+        
+        <!-- Mobile CTA -->
+        <div class="nav-item d-lg-none mt-3 mb-2">
+          <a href="./admision.html" class="btn btn-primary-liceo w-100">
+            <i class="bi bi-person-plus me-2"></i>Proceso de Admisión
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+// Fix para menús desplegables en modo responsive
+document.addEventListener('DOMContentLoaded', function() {
+  // Solo en dispositivos móviles
+  if (window.innerWidth < 992) {
+    const dropdownToggles = document.querySelectorAll('.navbar .dropdown-toggle');
+    
+    dropdownToggles.forEach(toggle => {
+      toggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        const dropdownMenu = this.nextElementSibling;
+        const isShown = dropdownMenu.classList.contains('show');
+        
+        // Cerrar todos los otros dropdowns
+        document.querySelectorAll('.navbar .dropdown-menu').forEach(menu => {
+          menu.classList.remove('show');
+        });
+        
+        // Toggle el dropdown actual
+        if (!isShown) {
+          dropdownMenu.classList.add('show');
+          this.setAttribute('aria-expanded', 'true');
+        } else {
+          dropdownMenu.classList.remove('show');
+          this.setAttribute('aria-expanded', 'false');
+        }
+      });
+    });
+    
+    // Cerrar dropdown al hacer clic en un link
+    document.querySelectorAll('.navbar .dropdown-menu a').forEach(link => {
+      link.addEventListener('click', function() {
+        document.querySelectorAll('.navbar .dropdown-menu').forEach(menu => {
+          menu.classList.remove('show');
+        });
+      });
+    });
+  }
+});
+</script>
+
+
+  <!-- Hero Section -->
+  <section class="hero-section" style="height: 60vh; min-height: 400px;">
+    <div class="hero-gradient"></div>
+    <img src="./assets/img/estudiantes.jpg" alt="Talleres Extraescolares" class="parallax-img" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
+    <div class="position-absolute top-50 start-50 translate-middle hero-content">
+      <div class="container-fluid px-3">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center hero-text-container">
+            <div class="hero-text-backdrop">
+              <h1 class="hero-title reveal">Talleres <span class="text-gradient-aqua">Extraescolares</span></h1>
+              <p class="hero-subtitle reveal">Desarrolla tus talentos y habilidades</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contenido Talleres -->
+  <section class="py-5">
+    <div class="container">
+      <!-- Introducción -->
+      <div class="text-center mb-5 reveal">
+        <h2 class="h3 text-gradient mb-3">Educación Integral</h2>
+        <p class="lead text-muted">
+          Nuestros talleres extraescolares complementan la formación académica, permitiendo a los estudiantes explorar sus intereses, desarrollar nuevas habilidades y descubrir sus talentos en un ambiente divertido y enriquecedor.
+        </p>
+      </div>
+
+      <!-- Filtros -->
+      <div class="mb-5 reveal">
+        <div class="d-flex justify-content-center">
+          <div class="btn-group btn-group-responsive flex-wrap" role="group" aria-label="Filtros de talleres">
+            <button type="button" class="btn btn-outline-primary-liceo active" data-filter="all">Todos</button>
+            <button type="button" class="btn btn-outline-primary-liceo" data-filter="deportes">Deportes</button>
+            <button type="button" class="btn btn-outline-primary-liceo" data-filter="arte">Arte y Cultura</button>
+            <button type="button" class="btn btn-outline-primary-liceo" data-filter="ciencia">Ciencia</button>
+            <button type="button" class="btn btn-outline-primary-liceo" data-filter="idiomas">Idiomas</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Talleres Grid -->
+      <div class="row g-4" id="talleresGrid">
+        <!-- Deportes -->
+        <div class="col-lg-4 col-md-6 taller-item" data-category="deportes">
+          <div class="card card-hover h-100 reveal">
+            <img src="./assets/img/futbol.jpg" class="thumb" alt="Fútbol">
+            <div class="card-body">
+              <span class="badge bg-success mb-2">Deportes</span>
+              <h3 class="h5 mb-2">Fútbol</h3>
+              <p class="text-muted small mb-3">Desarrollo de habilidades técnicas, trabajo en equipo y valores deportivos.</p>
+              <div class="d-flex align-items-center gap-3 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>Martes y Jueves 15:30-17:00</span>
+              </div>
+              <div class="mt-2 text-muted small">
+                <i class="bi bi-people me-1"></i>Cupos: 25 estudiantes
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 taller-item" data-category="deportes">
+          <div class="card card-hover h-100 reveal">
+            <img src="./assets/img/basquetbol.jpg" class="thumb" alt="Básquetbol">
+            <div class="card-body">
+              <span class="badge bg-success mb-2">Deportes</span>
+              <h3 class="h5 mb-2">Básquetbol</h3>
+              <p class="text-muted small mb-3">Fundamentos del basquetbol, estrategias de juego y competencia sana.</p>
+              <div class="d-flex align-items-center gap-3 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>Lunes y Miércoles 16:00-17:30</span>
+              </div>
+              <div class="mt-2 text-muted small">
+                <i class="bi bi-people me-1"></i>Cupos: 20 estudiantes
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 taller-item" data-category="deportes">
+          <div class="card card-hover h-100 reveal">
+            <img src="./assets/img/atletismo.jpg" class="thumb" alt="Atletismo">
+            <div class="card-body">
+              <span class="badge bg-success mb-2">Deportes</span>
+              <h3 class="h5 mb-2">Atletismo</h3>
+              <p class="text-muted small mb-3">Carreras, saltos y lanzamientos. Preparación para competencias interescolares.</p>
+              <div class="d-flex align-items-center gap-3 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>Viernes 15:00-16:30</span>
+              </div>
+              <div class="mt-2 text-muted small">
+                <i class="bi bi-people me-1"></i>Cupos: 30 estudiantes
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Arte y Cultura -->
+        <div class="col-lg-4 col-md-6 taller-item" data-category="arte">
+          <div class="card card-hover h-100 reveal">
+            <img src="./assets/img/pintura-y-artes-visuales.jpg" class="thumb" alt="Pintura y Artes Visuales">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark mb-2">Arte y Cultura</span>
+              <h3 class="h5 mb-2">Pintura y Artes Visuales</h3>
+              <p class="text-muted small mb-3">Exploración de técnicas artísticas y expresión creativa.</p>
+              <div class="d-flex align-items-center gap-3 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>Martes 15:30-17:00</span>
+              </div>
+              <div class="mt-2 text-muted small">
+                <i class="bi bi-people me-1"></i>Cupos: 20 estudiantes
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 taller-item" data-category="arte">
+          <div class="card card-hover h-100 reveal">
+            <img src="./assets/img/musica.jpg" class="thumb" alt="Música">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark mb-2">Arte y Cultura</span>
+              <h3 class="h5 mb-2">Música e Instrumentos</h3>
+              <p class="text-muted small mb-3">Aprendizaje de instrumentos musicales y formación de banda escolar.</p>
+              <div class="d-flex align-items-center gap-3 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>Jueves 16:00-17:30</span>
+              </div>
+              <div class="mt-2 text-muted small">
+                <i class="bi bi-people me-1"></i>Cupos: 15 estudiantes
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 taller-item" data-category="arte">
+          <div class="card card-hover h-100 reveal">
+            <img src="./assets/img/teatro.jpg" class="thumb" alt="Teatro">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark mb-2">Arte y Cultura</span>
+              <h3 class="h5 mb-2">Teatro y Expresión</h3>
+              <p class="text-muted small mb-3">Desarrollo de habilidades artísticas, expresión corporal y confianza.</p>
+              <div class="d-flex align-items-center gap-3 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>Miércoles 15:30-17:00</span>
+              </div>
+              <div class="mt-2 text-muted small">
+                <i class="bi bi-people me-1"></i>Cupos: 18 estudiantes
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 taller-item" data-category="arte">
+          <div class="card card-hover h-100 reveal">
+            <img src="./assets/img/danza.jpg" class="thumb" alt="Danza">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark mb-2">Arte y Cultura</span>
+              <h3 class="h5 mb-2">Danza y Movimiento</h3>
+              <p class="text-muted small mb-3">Danza contemporánea, folclórica y urbana. Preparación para presentaciones.</p>
+              <div class="d-flex align-items-center gap-3 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>Lunes y Viernes 15:30-17:00</span>
+              </div>
+              <div class="mt-2 text-muted small">
+                <i class="bi bi-people me-1"></i>Cupos: 22 estudiantes
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ciencia y Tecnología -->
+        <div class="col-lg-4 col-md-6 taller-item" data-category="ciencia">
+          <div class="card card-hover h-100 reveal">
+            <img src="./assets/img/robotica.jpg" class="thumb" alt="Robótica">
+            <div class="card-body">
+              <span class="badge bg-info text-white mb-2">Ciencia</span>
+              <h3 class="h5 mb-2">Robótica y Programación</h3>
+              <p class="text-muted small mb-3">Construcción de robots, programación y participación en competencias.</p>
+              <div class="d-flex align-items-center gap-3 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>Martes y Jueves 16:00-17:30</span>
+              </div>
+              <div class="mt-2 text-muted small">
+                <i class="bi bi-people me-1"></i>Cupos: 16 estudiantes
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 taller-item" data-category="ciencia">
+          <div class="card card-hover h-100 reveal">
+            <img src="./assets/img/ciencias.jpg" class="thumb" alt="Ciencias">
+            <div class="card-body">
+              <span class="badge bg-info text-white mb-2">Ciencia</span>
+              <h3 class="h5 mb-2">Club de Ciencias</h3>
+              <p class="text-muted small mb-3">Experimentos, proyectos científicos y preparación para ferias.</p>
+              <div class="d-flex align-items-center gap-3 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>Miércoles 15:30-17:00</span>
+              </div>
+              <div class="mt-2 text-muted small">
+                <i class="bi bi-people me-1"></i>Cupos: 20 estudiantes
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Idiomas -->
+        <div class="col-lg-4 col-md-6 taller-item" data-category="idiomas">
+          <div class="card card-hover h-100 reveal">
+            <img src="./assets/img/ingles.jpg" class="thumb" alt="Inglés">
+            <div class="card-body">
+              <span class="badge bg-primary text-white mb-2">Idiomas</span>
+              <h3 class="h5 mb-2">Inglés Avanzado</h3>
+              <p class="text-muted small mb-3">Conversación, preparación para certificaciones internacionales.</p>
+              <div class="d-flex align-items-center gap-3 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>Lunes y Miércoles 15:30-17:00</span>
+              </div>
+              <div class="mt-2 text-muted small">
+                <i class="bi bi-people me-1"></i>Cupos: 15 estudiantes
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 taller-item" data-category="idiomas">
+          <div class="card card-hover h-100 reveal">
+            <img src="./assets/img/frances.jpg" class="thumb" alt="Francés">
+            <div class="card-body">
+              <span class="badge bg-primary text-white mb-2">Idiomas</span>
+              <h3 class="h5 mb-2">Francés</h3>
+              <p class="text-muted small mb-3">Introducción al idioma francés, cultura y conversación básica.</p>
+              <div class="d-flex align-items-center gap-3 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>Jueves 15:30-17:00</span>
+              </div>
+              <div class="mt-2 text-muted small">
+                <i class="bi bi-people me-1"></i>Cupos: 12 estudiantes
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 taller-item" data-category="ciencia">
+          <div class="card card-hover h-100 reveal">
+            <img src="./assets/img/ajedrez.jpg" class="thumb" alt="Ajedrez">
+            <div class="card-body">
+              <span class="badge bg-info text-white mb-2">Ciencia</span>
+              <h3 class="h5 mb-2">Ajedrez</h3>
+              <p class="text-muted small mb-3">Desarrollo del pensamiento estratégico, concentración y toma de decisiones.</p>
+              <div class="d-flex align-items-center gap-3 text-muted small">
+                <span><i class="bi bi-clock me-1"></i>Viernes 15:00-16:30</span>
+              </div>
+              <div class="mt-2 text-muted small">
+                <i class="bi bi-people me-1"></i>Cupos: 24 estudiantes
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Información de Inscripción -->
+      <div class="mt-5 reveal">
+        <div class="card border-0 shadow-lg">
+          <div class="card-body p-5">
+            <h3 class="h4 text-gradient mb-4 text-center">Proceso de Inscripción</h3>
+            <div class="row g-4">
+              <div class="col-md-3 text-center">
+                <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px;">
+                  <strong class="h4 mb-0">1</strong>
+                </div>
+                <h4 class="h6 mb-2">Completa el Formulario</h4>
+                <p class="text-muted small mb-0">Llena el formulario de inscripción disponible en secretaría</p>
+              </div>
+              <div class="col-md-3 text-center">
+                <div class="bg-success text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px;">
+                  <strong class="h4 mb-0">2</strong>
+                </div>
+                <h4 class="h6 mb-2">Revisión de Cupos</h4>
+                <p class="text-muted small mb-0">Verificamos disponibilidad en el taller seleccionado</p>
+              </div>
+              <div class="col-md-3 text-center">
+                <div class="bg-info text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px;">
+                  <strong class="h4 mb-0">3</strong>
+                </div>
+                <h4 class="h6 mb-2">Confirmación</h4>
+                <p class="text-muted small mb-0">Recibe confirmación y detalles del taller</p>
+              </div>
+              <div class="col-md-3 text-center">
+                <div class="bg-warning text-white rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3" style="width: 60px; height: 60px;">
+                  <strong class="h4 mb-0">4</strong>
+                </div>
+                <h4 class="h6 mb-2">¡A Disfrutar!</h4>
+                <p class="text-muted small mb-0">Comienza a participar en tu taller</p>
+              </div>
+            </div>
+            <div class="text-center mt-4">
+              <a href="./contacto.html" class="btn btn-primary-liceo btn-lg px-5">
+                <i class="bi bi-envelope me-2"></i>Consultar e Inscribirse
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <!-- Footer Moderno y Dinámico -->
+<footer class="footer-modern">
+  <!-- Sección Principal del Footer -->
+  <div class="footer-main">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Columna 1: Identidad del Liceo -->
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand">
+            <div class="d-flex align-items-center gap-3 mb-4">
+              <div class="footer-logo-circle">
+                <i class="bi bi-mortarboard-fill"></i>
+              </div>
+              <div>
+                <h3 class="footer-brand-title mb-0">Liceo</h3>
+                <p class="footer-brand-subtitle mb-0">Excelencia Educativa</p>
+              </div>
+            </div>
+            <p class="footer-description">
+              Formando líderes del mañana con valores, conocimiento y compromiso. Una comunidad educativa que impulsa el desarrollo integral de cada estudiante.
+            </p>
+            
+            <!-- Estadísticas Rápidas -->
+            <div class="footer-stats">
+              <div class="footer-stat-item">
+                <i class="bi bi-award-fill"></i>
+                <div>
+                  <strong>50+</strong>
+                  <span>Años de Historia</span>
+                </div>
+              </div>
+              <div class="footer-stat-item">
+                <i class="bi bi-people-fill"></i>
+                <div>
+                  <strong>500+</strong>
+                  <span>Estudiantes</span>
+                </div>
+              </div>
+              <div class="footer-stat-item">
+                <i class="bi bi-book-fill"></i>
+                <div>
+                  <strong>25+</strong>
+                  <span>Profesores</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Columna 2: Enlaces Rápidos - Institución -->
+        <div class="col-lg-2 col-md-6">
+          <h4 class="footer-title">
+            <i class="bi bi-building me-2"></i>Institución
+          </h4>
+          <ul class="footer-links">
+            <li><a href="./index.html"><i class="bi bi-house-door"></i> Inicio</a></li>
+            <li><a href="./nosotros-historia.html"><i class="bi bi-clock-history"></i> Nuestra Historia</a></li>
+            <li><a href="./nosotros-mision.html"><i class="bi bi-bullseye"></i> Misión, Visión y Sellos</a></li>
+            <li><a href="./nosotros-pme.html"><i class="bi bi-journal-text"></i> PME</a></li>
+            <li><a href="./nosotros-comunidad.html"><i class="bi bi-people"></i> Comunidad</a></li>
+            <li><a href="./documentos.html"><i class="bi bi-file-earmark-text"></i> Documentos</a></li>
+          </ul>
+        </div>
+        
+        <!-- Columna 3: Enlaces Rápidos - Educación -->
+        <div class="col-lg-2 col-md-6">
+          <h4 class="footer-title">
+            <i class="bi bi-mortarboard me-2"></i>Educación
+          </h4>
+          <ul class="footer-links">
+            <li><a href="./oferta.html"><i class="bi bi-book"></i> Oferta Educativa</a></li>
+            <li><a href="./talleres.html"><i class="bi bi-palette"></i> Talleres</a></li>
+            <li><a href="./calendario-evaluaciones.html"><i class="bi bi-calendar-check"></i> Evaluaciones</a></li>
+            <li><a href="./uniforme.html"><i class="bi bi-person-badge"></i> Uniforme</a></li>
+            <li><a href="./admision.html"><i class="bi bi-door-open"></i> Admisión</a></li>
+            <li><a href="./noticias.html"><i class="bi bi-newspaper"></i> Noticias</a></li>
+          </ul>
+        </div>
+        
+        <!-- Columna 4: Contacto y Redes -->
+        <div class="col-lg-4 col-md-6">
+          <h4 class="footer-title">
+            <i class="bi bi-chat-dots me-2"></i>Contáctanos
+          </h4>
+          
+          <!-- Información de Contacto -->
+          <div class="footer-contact-info">
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Dirección</strong>
+                <p>4 Norte 0417<br>Talca, Chile</p>
+              </div>
+            </div>
+            
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-envelope-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Email</strong>
+                <p><a href="mailto:contacto@liceo.edu.cl">contacto@liceo.edu.cl</a></p>
+              </div>
+            </div>
+            
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Teléfonos</strong>
+                <p><a href="tel:+56712330863">71 233 0863</a><br>
+                <a href="tel:+56979259924">97 925 9924</a></p>
+              </div>
+            </div>
+            
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-clock-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Horario</strong>
+                <p>Lun - Vie: 8:00 - 18:00 hrs</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Redes Sociales -->
+          <div class="footer-social">
+            <h5 class="footer-social-title">Síguenos</h5>
+            <div class="footer-social-links">
+              <a href="#" class="footer-social-link facebook" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" class="footer-social-link instagram" aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="#" class="footer-social-link twitter" aria-label="Twitter">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a href="#" class="footer-social-link youtube" aria-label="YouTube">
+                <i class="bi bi-youtube"></i>
+              </a>
+              <a href="#" class="footer-social-link linkedin" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Barra Inferior del Footer -->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center text-lg-start mb-3 mb-lg-0">
+          <p class="footer-copyright mb-0">
+            <i class="bi bi-c-circle me-1"></i>
+            <span id="year"></span> <strong>Liceo</strong>. Todos los derechos reservados.
+          </p>
+        </div>
+        <div class="col-lg-6 text-center text-lg-end">
+          <div class="footer-legal-links">
+            <a href="./sitemap.html">
+              <i class="bi bi-diagram-3"></i> Mapa del Sitio
+            </a>
+            <span class="footer-divider">|</span>
+            <a href="./privacidad.html">
+              <i class="bi bi-shield-check"></i> Privacidad
+            </a>
+            <span class="footer-divider">|</span>
+            <a href="./terminos.html">
+              <i class="bi bi-file-text"></i> Términos
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Decoración de Fondo -->
+  <div class="footer-decoration">
+    <div class="footer-wave"></div>
+  </div>
+</footer>
+
+<!-- Script para actualizar el año automáticamente -->
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+
+  <button class="back-to-top" id="backTop" aria-label="Ir arriba" title="Ir arriba"><i class="bi bi-chevron-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Esperar a que se carguen los componentes
+    document.addEventListener('DOMContentLoaded', () => {
+      const io = new IntersectionObserver((entries)=>{
+        entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('visible'); });
+      },{threshold:.2});
+      document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+      
+      const backTop = document.getElementById('backTop');
+      window.addEventListener('scroll',()=>{
+        const nav = document.querySelector('.navbar-liceo');
+        if (nav) {
+          nav.classList.toggle('navbar-elevated', window.scrollY>12);
+        }
+        backTop.classList.toggle('show', window.scrollY>240);
+      });
+      backTop.addEventListener('click',()=> window.scrollTo({top:0, behavior:'smooth'}));
+
+      // Filtro de talleres
+      const filterButtons = document.querySelectorAll('[data-filter]');
+      const tallerItems = document.querySelectorAll('.taller-item');
+
+      filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          // Remover active de todos los botones
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+          // Agregar active al botón clickeado
+          button.classList.add('active');
+          
+          const filter = button.getAttribute('data-filter');
+          
+          tallerItems.forEach(item => {
+            const itemCategory = item.getAttribute('data-category');
+            const parentCol = item.closest('.col-lg-4, .col-md-6');
+            
+            if (filter === 'all' || itemCategory === filter) {
+              if (parentCol) parentCol.style.display = '';
+              item.classList.add('visible');
+            } else {
+              if (parentCol) parentCol.style.display = 'none';
+              item.classList.remove('visible');
+            }
+          });
+        });
+      });
+    });
+  </script>
+  <!-- <script src="./js/load-components.js"></script> (Inlined by build script) -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+

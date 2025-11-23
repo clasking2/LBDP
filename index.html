@@ -1,0 +1,670 @@
+﻿<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Liceo - Inicio</title>
+  <meta name="description"
+    content="Sitio institucional del Liceo. Noticias, documentos, calendario y diario mural digital.">
+  <meta property="og:title" content="Liceo - Inicio">
+  <meta property="og:description" content="Conoce noticias, actividades y nuestro diario mural digital.">
+  <meta property="og:type" content="website">
+  <meta property="og:image"
+    content="./assets/img/campus-moderno.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="mask-icon" href="./assets/img/safari-pinned-tab.svg" color="#1418c4">
+  <meta name="theme-color" content="#1418c4">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="./assets/css/liceo.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Topbar -->
+  <!-- Topbar Component -->
+<div class="topbar bg-primary-liceo text-white py-1 small" style="z-index:1060">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="d-flex gap-3 align-items-center">
+      <a href="mailto:contacto@liceo.edu.cl" class="d-inline-flex align-items-center gap-1">
+        <i class="bi bi-envelope icon"></i>
+        <span>contacto@liceo.edu.cl</span>
+      </a>
+      <a href="tel:+56712330863" class="d-none d-sm-inline-flex align-items-center gap-1">
+        <i class="bi bi-telephone icon"></i>
+        <span>71 233 0863</span>
+      </a>
+    </div>
+    <div class="d-flex gap-2">
+      <a href="#" aria-label="Facebook" class="social-link">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="#" aria-label="Instagram" class="social-link">
+        <i class="bi bi-instagram"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Navbar -->
+  <!-- Navbar Component -->
+<nav class="navbar navbar-expand-lg bg-white sticky-top navbar-liceo" aria-label="Principal">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="./index.html" aria-label="Inicio">
+      <span class="rounded" style="width:32px;height:32px;background:var(--aqua);display:inline-block"></span>
+      <strong id="brandName">Liceo</strong>
+    </a>
+    
+    <!-- Mobile menu button mejorado -->
+    <button class="navbar-toggler border-0 p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Abrir menú">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <!-- Mobile close button -->
+      <div class="d-lg-none d-flex justify-content-between align-items-center p-3 border-bottom mb-2">
+        <span class="fw-semibold text-primary">Menú de Navegación</span>
+        <button type="button" class="btn-close" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-label="Cerrar menú"></button>
+      </div>
+      
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navList">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Inicio</a>
+        </li>
+
+        <!-- Institución (mega) -->
+        <li class="nav-item dropdown position-static">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Institución</a>
+          <div class="dropdown-menu dropdown-mega shadow-lg border-0 p-4">
+            <div class="row">
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Nuestra Historia</div>
+                <a href="./nosotros-historia.html">Historia del Liceo</a>
+                <a href="./nosotros-mision.html">Misión, Visión y Sellos</a>
+              </div>
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Comunidad</div>
+                <a href="./nosotros-comunidad.html">Comunidad Educativa</a>
+                <a href="./nosotros-pme.html">Plan de Mejoramiento</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Vida Escolar -->
+        <li class="nav-item dropdown position-static">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Vida Escolar</a>
+          <div class="dropdown-menu dropdown-mega shadow-lg border-0 p-4">
+            <div class="row">
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Académico</div>
+                <a href="./oferta.html">Oferta Educativa</a>
+                <a href="./calendario-evaluaciones.html">Calendario Evaluaciones</a>
+              </div>
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Actividades</div>
+                <a href="./calendario-actividades.html">Calendario de Actividades</a>
+                <a href="./talleres.html">Talleres Extraescolares</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./noticias.html">Noticias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./uniforme.html">Uniforme</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./documentos.html">Documentos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contacto.html">Contacto</a>
+        </li>
+      </ul>
+
+      <!-- CTA button -->
+      <div class="navbar-nav">
+        <div class="nav-item d-none d-lg-block">
+          <a href="./admision.html" class="btn btn-primary-liceo btn-sm">
+            <i class="bi bi-person-plus me-1"></i>Postula Aquí
+          </a>
+        </div>
+        
+        <!-- Mobile CTA -->
+        <div class="nav-item d-lg-none mt-3 mb-2">
+          <a href="./admision.html" class="btn btn-primary-liceo w-100">
+            <i class="bi bi-person-plus me-2"></i>Proceso de Admisión
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+// Fix para menús desplegables en modo responsive
+document.addEventListener('DOMContentLoaded', function() {
+  // Solo en dispositivos móviles
+  if (window.innerWidth < 992) {
+    const dropdownToggles = document.querySelectorAll('.navbar .dropdown-toggle');
+    
+    dropdownToggles.forEach(toggle => {
+      toggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        const dropdownMenu = this.nextElementSibling;
+        const isShown = dropdownMenu.classList.contains('show');
+        
+        // Cerrar todos los otros dropdowns
+        document.querySelectorAll('.navbar .dropdown-menu').forEach(menu => {
+          menu.classList.remove('show');
+        });
+        
+        // Toggle el dropdown actual
+        if (!isShown) {
+          dropdownMenu.classList.add('show');
+          this.setAttribute('aria-expanded', 'true');
+        } else {
+          dropdownMenu.classList.remove('show');
+          this.setAttribute('aria-expanded', 'false');
+        }
+      });
+    });
+    
+    // Cerrar dropdown al hacer clic en un link
+    document.querySelectorAll('.navbar .dropdown-menu a').forEach(link => {
+      link.addEventListener('click', function() {
+        document.querySelectorAll('.navbar .dropdown-menu').forEach(menu => {
+          menu.classList.remove('show');
+        });
+      });
+    });
+  }
+});
+</script>
+
+
+  <!-- Hero Section Mejorada -->
+  <section id="hero" class="hero-section position-relative overflow-hidden">
+    <div id="heroCarousel" class="carousel slide h-100" data-bs-ride="carousel" data-bs-interval="6000">
+      <div class="carousel-inner h-100">
+        <div class="hero-gradient"></div>
+        <div class="carousel-item active h-100">
+          <img class="d-block w-100 h-100 parallax-img"
+            src="./assets/img/campus-moderno.jpg"
+            alt="Campus moderno" loading="lazy" style="object-fit: cover;">
+        </div>
+        <div class="carousel-item h-100">
+          <img class="d-block w-100 h-100 parallax-img"
+            src="./assets/img/edificio-institucional.jpg"
+            alt="Edificio institucional" loading="lazy" style="object-fit: cover;">
+        </div>
+        <div class="carousel-item h-100">
+          <img class="d-block w-100 h-100 parallax-img"
+            src="./assets/img/edificio-blanco.jpg"
+            alt="Edificio blanco" loading="lazy" style="object-fit: cover;">
+        </div>
+      </div>
+
+      <!-- Hero Content Overlay -->
+      <div class="position-absolute top-50 start-50 translate-middle hero-content">
+        <div class="container-fluid px-3">
+          <div class="row justify-content-center">
+            <div class="col-12 text-center hero-text-container">
+              <div class="hero-text-backdrop">
+                <h1 class="hero-title reveal">
+                  Liceo Bicentenario<br>
+                  <span class="text-gradient-aqua">Diego Portales</span>
+                </h1>
+                <p class="hero-subtitle reveal">
+                  Llegando a ser, lo que podemos ser
+                </p>
+                <div class="d-flex gap-3 flex-wrap justify-content-center reveal">
+                  <a href="./admision.html" class="btn btn-primary-liceo btn-lg px-4 py-3">
+                    <i class="bi bi-arrow-right-circle me-2"></i>Proceso de Admisión
+                  </a>
+                  <a href="./nosotros-historia.html" class="btn btn-outline-light btn-lg px-4 py-3">
+                    <i class="bi bi-info-circle me-2"></i>Conoce Más
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev"
+        aria-label="Anterior">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next"
+        aria-label="Siguiente">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Accesos rápidos mejorados -->
+  <section id="accesos" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title h3 text-gradient mb-3" id="i18nQuick">Accesos Rápidos</h2>
+        <p class="text-muted">Encuentra rápidamente la información que necesitas</p>
+      </div>
+      <div class="row g-4" id="quickLinks">
+        <div class="col-lg-4 col-md-6">
+          <div class="card card-feature h-100 reveal">
+            <div class="card-body text-center p-4">
+              <div class="card-icon mx-auto">
+                <i class="bi bi-calendar-check"></i>
+              </div>
+              <h3 class="h5 mb-3">Calendario de Evaluaciones</h3>
+              <p class="text-muted small mb-3">Consulta las fechas de pruebas y evaluaciones por curso</p>
+              <a href="./calendario-evaluaciones.html" class="btn btn-outline-primary-liceo">
+                <i class="bi bi-arrow-right me-1"></i>Ver Calendario
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card card-feature h-100 reveal">
+            <div class="card-body text-center p-4">
+              <div class="card-icon card-icon-aqua mx-auto">
+                <i class="bi bi-calendar-event"></i>
+              </div>
+              <h3 class="h5 mb-3">Calendario de Actividades</h3>
+              <p class="text-muted small mb-3">Mantente al día con todas las actividades y eventos del liceo</p>
+              <a href="./calendario-actividades.html" class="btn btn-outline-primary-liceo" id="i18nSeeMore1">
+                <i class="bi bi-arrow-right me-1"></i>Ver Calendario
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card card-feature h-100 reveal">
+            <div class="card-body text-center p-4">
+              <div class="card-icon mx-auto">
+                <i class="bi bi-graph-up-arrow"></i>
+              </div>
+              <h3 class="h5 mb-3">Plan de Mejoramiento</h3>
+              <p class="text-muted small mb-3">Conoce nuestro Plan de Mejoramiento Educativo (PME)</p>
+              <a href="./nosotros-pme.html" class="btn btn-outline-primary-liceo">
+                <i class="bi bi-arrow-right me-1"></i>Ver Plan
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Diario Mural Digital -->
+  <section id="why-choose" class="py-5 soft-bg">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <div class="reveal">
+            <h2 class="h3 text-gradient mb-4">¿Por qué elegir nuestro Liceo?</h2>
+            <p class="lead text-muted mb-4">
+              Somos una institución comprometida con la formación integral de nuestros estudiantes,
+              brindando educación de calidad que prepara para el futuro.
+            </p>
+
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <div class="d-flex align-items-start gap-3">
+                  <div class="flex-shrink-0">
+                    <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center"
+                      style="width: 48px; height: 48px;">
+                      <i class="bi bi-award"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 class="h6 mb-1">Excelencia Académica</h4>
+                    <p class="small text-muted mb-0">Programa académico de alta calidad</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="d-flex align-items-start gap-3">
+                  <div class="flex-shrink-0">
+                    <div class="bg-success text-white rounded-circle d-flex align-items-center justify-content-center"
+                      style="width: 48px; height: 48px;">
+                      <i class="bi bi-people"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 class="h6 mb-1">Comunidad Educativa</h4>
+                    <p class="small text-muted mb-0">Ambiente colaborativo y acogedor</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="d-flex align-items-start gap-3">
+                  <div class="flex-shrink-0">
+                    <div class="bg-info text-white rounded-circle d-flex align-items-center justify-content-center"
+                      style="width: 48px; height: 48px;">
+                      <i class="bi bi-lightbulb"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 class="h6 mb-1">Innovación Educativa</h4>
+                    <p class="small text-muted mb-0">Metodologías modernas de enseñanza</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="d-flex align-items-start gap-3">
+                  <div class="flex-shrink-0">
+                    <div class="bg-warning text-white rounded-circle d-flex align-items-center justify-content-center"
+                      style="width: 48px; height: 48px;">
+                      <i class="bi bi-trophy"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 class="h6 mb-1">Formación Integral</h4>
+                    <p class="small text-muted mb-0">Desarrollo personal y académico</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4 d-flex flex-wrap gap-3">
+              <a href="./nosotros-historia.html" class="btn btn-primary-liceo">
+                <i class="bi bi-info-circle me-2"></i>Conoce Nuestra Historia
+              </a>
+              <a href="./oferta.html" class="btn btn-outline-primary-liceo">
+                <i class="bi bi-book me-2"></i>Ver Oferta Educativa
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="reveal">
+            <div class="position-relative">
+              <img src="./assets/img/estudiantes.jpg"
+                alt="Estudiantes en clase" class="img-fluid rounded-4 shadow-lg">
+              <div class="position-absolute bottom-0 start-0 p-4">
+                <div class="bg-white rounded-3 p-3 shadow">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="bg-success rounded-circle d-flex align-items-center justify-content-center"
+                      style="width: 40px; height: 40px;">
+                      <i class="bi bi-check2 text-white"></i>
+                    </div>
+                    <div>
+                      <div class="fw-semibold">+500</div>
+                      <div class="small text-muted">Estudiantes activos</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="mural" class="py-4 py-md-5 mt-3 mt-md-4">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-2">
+        <h2 class="section-title h5 m-0" id="muralTitle">Diario Mural Digital</h2>
+        <div class="d-flex align-items-center gap-2">
+          <label for="muralFilter" class="small text-secondary" id="muralFilterLabel">Categoría:</label>
+          <select id="muralFilter" class="form-select form-select-sm" style="width:200px">
+            <option value="all" selected>Todos</option>
+            <option value="Comunicados">Comunicados</option>
+            <option value="Eventos">Eventos</option>
+            <option value="Académico">Académico</option>
+            <option value="Recordatorio">Recordatorio</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="mural p-3 rounded">
+        <div class="mural-grid mt-3" id="muralGrid" aria-live="polite"></div>
+
+        <!-- Paginación del Diario Mural -->
+        <div class="d-flex justify-content-between align-items-center mt-3" id="muralPagination">
+          <button id="muralPrevBtn" class="btn btn-outline-primary-liceo btn-sm" disabled>
+            <i class="bi bi-chevron-left me-1"></i>Anterior
+          </button>
+          <div class="text-muted small" id="muralPageInfo">Página 1 de 1</div>
+          <button id="muralNextBtn" class="btn btn-outline-primary-liceo btn-sm" disabled>
+            Siguiente<i class="bi bi-chevron-right ms-1"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ãšltimas Noticias -->
+  <section id="ultimas" class="py-4">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="section-title h5 mb-0" id="i18nLatest">Ãšltimas Noticias</h2>
+        <a href="./noticias.html" class="btn btn-outline-primary-liceo btn-sm">
+          <i class="bi bi-arrow-right me-1"></i>Ver Todas
+        </a>
+      </div>
+      <div class="row g-3" id="latestNews"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <!-- Footer Moderno y Dinámico -->
+<footer class="footer-modern">
+  <!-- Sección Principal del Footer -->
+  <div class="footer-main">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Columna 1: Identidad del Liceo -->
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand">
+            <div class="d-flex align-items-center gap-3 mb-4">
+              <div class="footer-logo-circle">
+                <i class="bi bi-mortarboard-fill"></i>
+              </div>
+              <div>
+                <h3 class="footer-brand-title mb-0">Liceo</h3>
+                <p class="footer-brand-subtitle mb-0">Excelencia Educativa</p>
+              </div>
+            </div>
+            <p class="footer-description">
+              Formando líderes del mañana con valores, conocimiento y compromiso. Una comunidad educativa que impulsa el desarrollo integral de cada estudiante.
+            </p>
+            
+            <!-- Estadísticas Rápidas -->
+            <div class="footer-stats">
+              <div class="footer-stat-item">
+                <i class="bi bi-award-fill"></i>
+                <div>
+                  <strong>50+</strong>
+                  <span>Años de Historia</span>
+                </div>
+              </div>
+              <div class="footer-stat-item">
+                <i class="bi bi-people-fill"></i>
+                <div>
+                  <strong>500+</strong>
+                  <span>Estudiantes</span>
+                </div>
+              </div>
+              <div class="footer-stat-item">
+                <i class="bi bi-book-fill"></i>
+                <div>
+                  <strong>25+</strong>
+                  <span>Profesores</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Columna 2: Enlaces Rápidos - Institución -->
+        <div class="col-lg-2 col-md-6">
+          <h4 class="footer-title">
+            <i class="bi bi-building me-2"></i>Institución
+          </h4>
+          <ul class="footer-links">
+            <li><a href="./index.html"><i class="bi bi-house-door"></i> Inicio</a></li>
+            <li><a href="./nosotros-historia.html"><i class="bi bi-clock-history"></i> Nuestra Historia</a></li>
+            <li><a href="./nosotros-mision.html"><i class="bi bi-bullseye"></i> Misión, Visión y Sellos</a></li>
+            <li><a href="./nosotros-pme.html"><i class="bi bi-journal-text"></i> PME</a></li>
+            <li><a href="./nosotros-comunidad.html"><i class="bi bi-people"></i> Comunidad</a></li>
+            <li><a href="./documentos.html"><i class="bi bi-file-earmark-text"></i> Documentos</a></li>
+          </ul>
+        </div>
+        
+        <!-- Columna 3: Enlaces Rápidos - Educación -->
+        <div class="col-lg-2 col-md-6">
+          <h4 class="footer-title">
+            <i class="bi bi-mortarboard me-2"></i>Educación
+          </h4>
+          <ul class="footer-links">
+            <li><a href="./oferta.html"><i class="bi bi-book"></i> Oferta Educativa</a></li>
+            <li><a href="./talleres.html"><i class="bi bi-palette"></i> Talleres</a></li>
+            <li><a href="./calendario-evaluaciones.html"><i class="bi bi-calendar-check"></i> Evaluaciones</a></li>
+            <li><a href="./uniforme.html"><i class="bi bi-person-badge"></i> Uniforme</a></li>
+            <li><a href="./admision.html"><i class="bi bi-door-open"></i> Admisión</a></li>
+            <li><a href="./noticias.html"><i class="bi bi-newspaper"></i> Noticias</a></li>
+          </ul>
+        </div>
+        
+        <!-- Columna 4: Contacto y Redes -->
+        <div class="col-lg-4 col-md-6">
+          <h4 class="footer-title">
+            <i class="bi bi-chat-dots me-2"></i>Contáctanos
+          </h4>
+          
+          <!-- Información de Contacto -->
+          <div class="footer-contact-info">
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Dirección</strong>
+                <p>4 Norte 0417<br>Talca, Chile</p>
+              </div>
+            </div>
+            
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-envelope-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Email</strong>
+                <p><a href="mailto:contacto@liceo.edu.cl">contacto@liceo.edu.cl</a></p>
+              </div>
+            </div>
+            
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Teléfonos</strong>
+                <p><a href="tel:+56712330863">71 233 0863</a><br>
+                <a href="tel:+56979259924">97 925 9924</a></p>
+              </div>
+            </div>
+            
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-clock-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Horario</strong>
+                <p>Lun - Vie: 8:00 - 18:00 hrs</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Redes Sociales -->
+          <div class="footer-social">
+            <h5 class="footer-social-title">Síguenos</h5>
+            <div class="footer-social-links">
+              <a href="#" class="footer-social-link facebook" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" class="footer-social-link instagram" aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="#" class="footer-social-link twitter" aria-label="Twitter">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a href="#" class="footer-social-link youtube" aria-label="YouTube">
+                <i class="bi bi-youtube"></i>
+              </a>
+              <a href="#" class="footer-social-link linkedin" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Barra Inferior del Footer -->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center text-lg-start mb-3 mb-lg-0">
+          <p class="footer-copyright mb-0">
+            <i class="bi bi-c-circle me-1"></i>
+            <span id="year"></span> <strong>Liceo</strong>. Todos los derechos reservados.
+          </p>
+        </div>
+        <div class="col-lg-6 text-center text-lg-end">
+          <div class="footer-legal-links">
+            <a href="./sitemap.html">
+              <i class="bi bi-diagram-3"></i> Mapa del Sitio
+            </a>
+            <span class="footer-divider">|</span>
+            <a href="./privacidad.html">
+              <i class="bi bi-shield-check"></i> Privacidad
+            </a>
+            <span class="footer-divider">|</span>
+            <a href="./terminos.html">
+              <i class="bi bi-file-text"></i> Términos
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Decoración de Fondo -->
+  <div class="footer-decoration">
+    <div class="footer-wave"></div>
+  </div>
+</footer>
+
+<!-- Script para actualizar el año automáticamente -->
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+
+  <button class="back-to-top" id="backTop" aria-label="Ir arriba" title="Ir arriba"><i
+      class="bi bi-chevron-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/news-loader.js"></script>
+  <script src="./js/home.js"></script>
+  <!-- <script src="./js/load-components.js"></script> (Inlined by build script) -->
+</body>
+
+</html>
+
+

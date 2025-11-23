@@ -1,0 +1,216 @@
+{
+  "id": "page_id",
+  "name": "Liceo Bicentenario Delegación Presidencial",
+  "posts": {
+    "data": [
+      {
+        "id": "post_id_1",
+        "created_time": "2025-03-15T16:39:20+0000",
+        "message": "¡Bienvenidos al nuevo año escolar 2025! Estamos emocionados de comenzar este año lleno de aprendizaje y nuevos desafíos. Les damos la bienvenida a todos nuestros estudiantes y familias.",
+        "attachments": {
+          "data": [
+            {
+              "media": {
+                "image": {
+                  "height": 720,
+                  "src": "https://images.pexels.com/photos/33415773/pexels-photo-33415773.jpeg",
+                  "width": 1280
+                }
+              },
+              "title": "Inicio de Clases 2025",
+              "url": "",
+              "subattachments": {
+                "data": [
+                  {
+                    "media": {
+                      "image": {
+                        "height": 720,
+                        "src": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+                        "width": 1280
+                      }
+                    }
+                  },
+                  {
+                    "media": {
+                      "image": {
+                        "height": 720,
+                        "src": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b",
+                        "width": 1280
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "post_id_2",
+        "created_time": "2025-05-18T10:30:00+0000",
+        "message": "¡Los esperamos en nuestra Feria de Ciencias Regional! Los estudiantes presentarán proyectos innovadores en ciencias, tecnología e ingeniería. Un evento que no te puedes perder.",
+        "attachments": {
+          "data": [
+            {
+              "media": {
+                "image": {
+                  "height": 720,
+                  "src": "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad",
+                  "width": 1280
+                }
+              },
+              "title": "Feria de Ciencias 2025",
+              "url": ""
+            }
+          ]
+        }
+      },
+      {
+        "id": "post_id_3",
+        "created_time": "2025-06-21T14:15:00+0000",
+        "message": "Celebramos el Día de los Pueblos Indígenas con actividades culturales y educativas. Nuestros estudiantes aprendieron sobre la rica historia y tradiciones de los pueblos originarios de Chile.",
+        "attachments": {
+          "data": [
+            {
+              "media": {
+                "image": {
+                  "height": 720,
+                  "src": "https://images.unsplash.com/photo-1557804506-669a67965ba0",
+                  "width": 1280
+                }
+              },
+              "title": "Día de los Pueblos Indígenas",
+              "url": "",
+              "subattachments": {
+                "data": [
+                  {
+                    "media": {
+                      "image": {
+                        "height": 720,
+                        "src": "https://images.unsplash.com/photo-1531482615713-2afd69097998",
+                        "width": 1280
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "post_id_4",
+        "created_time": "2025-09-19T09:00:00+0000",
+        "message": "¡Viva Chile! Celebramos Fiestas Patrias con alegría y entusiasmo. Nuestros estudiantes disfrutaron de bailes típicos, juegos tradicionales y comida chilena. ¡Feliz Dieciocho!",
+        "attachments": {
+          "data": [
+            {
+              "media": {
+                "image": {
+                  "height": 720,
+                  "src": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+                  "width": 1280
+                }
+              },
+              "title": "Celebración Fiestas Patrias 2025",
+              "url": "",
+              "subattachments": {
+                "data": [
+                  {
+                    "media": {
+                      "image": {
+                        "height": 720,
+                        "src": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1",
+                        "width": 1280
+                      }
+                    }
+                  },
+                  {
+                    "media": {
+                      "image": {
+                        "height": 720,
+                        "src": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+                        "width": 1280
+                      }
+                    }
+                  },
+                  {
+                    "media": {
+                      "image": {
+                        "height": 720,
+                        "src": "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a",
+                        "width": 1280
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "post_id_5",
+        "created_time": "2025-10-16T11:45:00+0000",
+        "message": "Hoy celebramos a nuestros queridos profesores en su día. Gracias por su dedicación, paciencia y por inspirar a nuestros estudiantes cada día. ¡Feliz Día del Profesor!",
+        "attachments": {
+          "data": [
+            {
+              "media": {
+                "image": {
+                  "height": 720,
+                  "src": "https://images.unsplash.com/photo-1577896851231-70ef18881754",
+                  "width": 1280
+                }
+              },
+              "title": "Día del Profesor 2025",
+              "url": ""
+            }
+          ]
+        }
+      },
+      {
+        "id": "post_id_6",
+        "created_time": "2025-11-20T15:30:00+0000",
+        "message": "¡Felicitaciones a la generación 2025! Hoy celebramos la ceremonia de graduación de nuestros estudiantes de 4º medio. Les deseamos éxito en esta nueva etapa de sus vidas.",
+        "attachments": {
+          "data": [
+            {
+              "media": {
+                "image": {
+                  "height": 720,
+                  "src": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=1200&q=80",
+                  "width": 1280
+                }
+              },
+              "title": "Graduación 2025",
+              "url": "",
+              "subattachments": {
+                "data": [
+                  {
+                    "media": {
+                      "image": {
+                        "height": 720,
+                        "src": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80",
+                        "width": 1280
+                      }
+                    }
+                  },
+                  {
+                    "media": {
+                      "image": {
+                        "height": 720,
+                        "src": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80",
+                        "width": 1280
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

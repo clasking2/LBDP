@@ -1,0 +1,657 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Misión, Visión y Sellos Educativos - Liceo</title>
+  <meta name="description" content="Conoce nuestra misión, visión y sellos educativos institucionales">
+  <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="./assets/css/liceo.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Topbar -->
+  <!-- Topbar Component -->
+<div class="topbar bg-primary-liceo text-white py-1 small" style="z-index:1060">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="d-flex gap-3 align-items-center">
+      <a href="mailto:contacto@liceo.edu.cl" class="d-inline-flex align-items-center gap-1">
+        <i class="bi bi-envelope icon"></i>
+        <span>contacto@liceo.edu.cl</span>
+      </a>
+      <a href="tel:+56712330863" class="d-none d-sm-inline-flex align-items-center gap-1">
+        <i class="bi bi-telephone icon"></i>
+        <span>71 233 0863</span>
+      </a>
+    </div>
+    <div class="d-flex gap-2">
+      <a href="#" aria-label="Facebook" class="social-link">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="#" aria-label="Instagram" class="social-link">
+        <i class="bi bi-instagram"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Navbar -->
+  <!-- Navbar Component -->
+<nav class="navbar navbar-expand-lg bg-white sticky-top navbar-liceo" aria-label="Principal">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="./index.html" aria-label="Inicio">
+      <span class="rounded" style="width:32px;height:32px;background:var(--aqua);display:inline-block"></span>
+      <strong id="brandName">Liceo</strong>
+    </a>
+    
+    <!-- Mobile menu button mejorado -->
+    <button class="navbar-toggler border-0 p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Abrir menú">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <!-- Mobile close button -->
+      <div class="d-lg-none d-flex justify-content-between align-items-center p-3 border-bottom mb-2">
+        <span class="fw-semibold text-primary">Menú de Navegación</span>
+        <button type="button" class="btn-close" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-label="Cerrar menú"></button>
+      </div>
+      
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navList">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Inicio</a>
+        </li>
+
+        <!-- Institución (mega) -->
+        <li class="nav-item dropdown position-static">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Institución</a>
+          <div class="dropdown-menu dropdown-mega shadow-lg border-0 p-4">
+            <div class="row">
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Nuestra Historia</div>
+                <a href="./nosotros-historia.html">Historia del Liceo</a>
+                <a href="./nosotros-mision.html">Misión, Visión y Sellos</a>
+              </div>
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Comunidad</div>
+                <a href="./nosotros-comunidad.html">Comunidad Educativa</a>
+                <a href="./nosotros-pme.html">Plan de Mejoramiento</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Vida Escolar -->
+        <li class="nav-item dropdown position-static">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Vida Escolar</a>
+          <div class="dropdown-menu dropdown-mega shadow-lg border-0 p-4">
+            <div class="row">
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Académico</div>
+                <a href="./oferta.html">Oferta Educativa</a>
+                <a href="./calendario-evaluaciones.html">Calendario Evaluaciones</a>
+              </div>
+              <div class="col-lg-3 mb-3">
+                <div class="col-title">Actividades</div>
+                <a href="./calendario-actividades.html">Calendario de Actividades</a>
+                <a href="./talleres.html">Talleres Extraescolares</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./noticias.html">Noticias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./uniforme.html">Uniforme</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./documentos.html">Documentos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contacto.html">Contacto</a>
+        </li>
+      </ul>
+
+      <!-- CTA button -->
+      <div class="navbar-nav">
+        <div class="nav-item d-none d-lg-block">
+          <a href="./admision.html" class="btn btn-primary-liceo btn-sm">
+            <i class="bi bi-person-plus me-1"></i>Postula Aquí
+          </a>
+        </div>
+        
+        <!-- Mobile CTA -->
+        <div class="nav-item d-lg-none mt-3 mb-2">
+          <a href="./admision.html" class="btn btn-primary-liceo w-100">
+            <i class="bi bi-person-plus me-2"></i>Proceso de Admisión
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+// Fix para menús desplegables en modo responsive
+document.addEventListener('DOMContentLoaded', function() {
+  // Solo en dispositivos móviles
+  if (window.innerWidth < 992) {
+    const dropdownToggles = document.querySelectorAll('.navbar .dropdown-toggle');
+    
+    dropdownToggles.forEach(toggle => {
+      toggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        const dropdownMenu = this.nextElementSibling;
+        const isShown = dropdownMenu.classList.contains('show');
+        
+        // Cerrar todos los otros dropdowns
+        document.querySelectorAll('.navbar .dropdown-menu').forEach(menu => {
+          menu.classList.remove('show');
+        });
+        
+        // Toggle el dropdown actual
+        if (!isShown) {
+          dropdownMenu.classList.add('show');
+          this.setAttribute('aria-expanded', 'true');
+        } else {
+          dropdownMenu.classList.remove('show');
+          this.setAttribute('aria-expanded', 'false');
+        }
+      });
+    });
+    
+    // Cerrar dropdown al hacer clic en un link
+    document.querySelectorAll('.navbar .dropdown-menu a').forEach(link => {
+      link.addEventListener('click', function() {
+        document.querySelectorAll('.navbar .dropdown-menu').forEach(menu => {
+          menu.classList.remove('show');
+        });
+      });
+    });
+  }
+});
+</script>
+
+
+  <!-- Hero Section -->
+  <section class="hero-section" style="height: 60vh; min-height: 400px;">
+    <div class="hero-gradient"></div>
+    <img src="./assets/img/estudiantes.jpg" alt="Misión y Visión" class="parallax-img" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
+    <div class="position-absolute top-50 start-50 translate-middle hero-content">
+      <div class="container-fluid px-3">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center hero-text-container">
+            <div class="hero-text-backdrop">
+              <h1 class="hero-title reveal">Misión, Visión y <span class="text-gradient-aqua">Sellos</span></h1>
+              <p class="hero-subtitle reveal">Los pilares que guían nuestro compromiso educativo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contenido Misión y Visión -->
+  <section class="py-5">
+    <div class="container">
+      <!-- Misión -->
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-6 mb-4 mb-lg-0 reveal">
+          <div class="card card-feature h-100 border-0">
+            <div class="card-body p-5">
+              <div class="card-icon card-icon-aqua mb-4">
+                <i class="bi bi-bullseye"></i>
+              </div>
+              <h2 class="h3 text-gradient mb-4">Nuestra Misión</h2>
+              <p class="lead text-muted">
+                Desarrollar la formación integral de calidad, fortaleciendo el conocimiento, creatividad, autonomía y espíritu emprendedor, mediante un trabajo educativo colaborativo con altas expectativas en los estudiantes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 reveal">
+          <img src="./assets/img/estudiantes.jpg" alt="Misión" class="img-fluid rounded-4 shadow-lg">
+        </div>
+      </div>
+
+      <!-- Visión -->
+      <div class="row align-items-center mb-5 flex-lg-row-reverse">
+        <div class="col-lg-6 mb-4 mb-lg-0 reveal">
+          <div class="card card-feature h-100 border-0">
+            <div class="card-body p-5">
+              <div class="card-icon mb-4">
+                <i class="bi bi-rocket"></i>
+              </div>
+              <h2 class="h3 text-gradient mb-4">Nuestra Visión</h2>
+              <p class="lead text-muted">
+                Consolidarse como una institución educativa de excelencia académica, en la formación Científico Humanista y Técnico Profesional, desarrollando las competencias y habilidades de forma creativa, innovadora y eficiente.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 reveal">
+          <img src="./assets/img/estudiantes.jpg" alt="Visión" class="img-fluid rounded-4 shadow-lg">
+        </div>
+      </div>
+
+      <!-- Sentidos Institucionales -->
+      <div class="text-center mb-5 mt-5 reveal">
+        <h2 class="h3 text-gradient mb-3">Sentidos Institucionales</h2>
+        <p class="text-muted">Los cuatro pilares que fundamentan nuestra propuesta educativa</p>
+      </div>
+
+      <div class="row g-4 mb-5">
+        <div class="col-lg-6 reveal">
+          <div class="card card-feature h-100">
+            <div class="card-body p-4">
+              <div class="card-icon card-icon-aqua mb-3">
+                <i class="bi bi-lightbulb-fill"></i>
+              </div>
+              <h3 class="h5 mb-3 text-primary-liceo">Experiencias de Aprendizaje</h3>
+              <p class="text-muted mb-0">
+                Experiencias de aprendizaje que ofrezcan oportunidades para el desarrollo de habilidades, considerando las particularidades de los estudiantes y congregando espacios de encuentro para fomentar el aprendizaje colaborativo.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 reveal">
+          <div class="card card-feature h-100">
+            <div class="card-body p-4">
+              <div class="card-icon mb-3">
+                <i class="bi bi-shield-check"></i>
+              </div>
+              <h3 class="h5 mb-3 text-primary-liceo">Promoción de Espacios Educativos</h3>
+              <p class="text-muted mb-0">
+                Promoción de espacios educativos diversos y apropiados de la sana convivencia escolar, que generen agrado y seguridad a los estudiantes en sus procesos de enseñanza aprendizaje.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 reveal">
+          <div class="card card-feature h-100">
+            <div class="card-body p-4">
+              <div class="card-icon card-icon-aqua mb-3">
+                <i class="bi bi-person-hearts"></i>
+              </div>
+              <h3 class="h5 mb-3 text-primary-liceo">Propuesta Educativa Respetuosa</h3>
+              <p class="text-muted mb-0">
+                Propuesta educativa respetuosa de cada etapa del desarrollo de los estudiantes, comprendiendo las características propias en cuanto al desarrollo emocional, socio afectivo y cognitivo involucrado.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 reveal">
+          <div class="card card-feature h-100">
+            <div class="card-body p-4">
+              <div class="card-icon mb-3">
+                <i class="bi bi-graph-up-arrow"></i>
+              </div>
+              <h3 class="h5 mb-3 text-primary-liceo">Desarrollo de Habilidades del Siglo XXI</h3>
+              <p class="text-muted mb-0">
+                Desarrollo de habilidades del siglo XXI que les permitan generar y consolidar su proyecto de vida, como son la comunicación, la colaboración, la creatividad, el emprendimiento, pensamiento crítico y el respeto por la sociedad y el entorno.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sellos Educativos -->
+      <div class="text-center mb-5 reveal">
+        <h2 class="h3 text-gradient mb-3">Sellos Educativos</h2>
+        <p class="text-muted">Los elementos distintivos que nos identifican como comunidad educativa</p>
+      </div>
+
+      <div class="row g-4 mb-5">
+        <div class="col-lg-4 reveal">
+          <div class="card card-feature h-100">
+            <div class="card-body text-center p-4">
+              <div class="card-icon mx-auto">
+                <i class="bi bi-shield-check"></i>
+              </div>
+              <h3 class="h5 mb-3 text-primary-liceo">Establecimiento Acogedor</h3>
+              <p class="text-muted mb-0">
+                Somos una comunidad educativa que se caracteriza por la convivencia basada en el buen trato, la empatía, el amor por el otro. Favorecemos la inclusión y los vínculos con nuestros estudiantes y apoderados, aceptando y valorando la diversidad en todos sus dimensiones.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 reveal">
+          <div class="card card-feature h-100">
+            <div class="card-body text-center p-4">
+              <div class="card-icon card-icon-aqua mx-auto">
+                <i class="bi bi-people-fill"></i>
+              </div>
+              <h3 class="h5 mb-3 text-primary-liceo">Educación Integral y Colaborativa</h3>
+              <p class="text-muted mb-0">
+                Somos una comunidad educativa que se involucra de manera activa y colaborativa en los procesos de enseñanza y aprendizaje que se imparten en el liceo, considerando la dimensión social, emocional y multicultural del ser humano, formando ciudadanos comprometidos de sí mismos y su entorno.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 reveal">
+          <div class="card card-feature h-100">
+            <div class="card-body text-center p-4">
+              <div class="card-icon mx-auto">
+                <i class="bi bi-lightbulb-fill"></i>
+              </div>
+              <h3 class="h5 mb-3 text-primary-liceo">Aprendizaje Activo</h3>
+              <p class="text-muted mb-0">
+                Somos una comunidad educativa que fomenta el uso de metodologías activas, que les permiten a los y las estudiantes aprender de sus aprendizajes y construir sus conocimientos, habilidades y actitudes, participando en contextos reales.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Valores y Competencias -->
+      <div class="text-center mb-5 mt-5 reveal">
+        <h2 class="h3 text-gradient mb-3">Valores y Competencias</h2>
+        <p class="text-muted">Los valores y competencias que promovemos en nuestra comunidad educativa</p>
+      </div>
+
+      <div class="row g-4 mb-5">
+        <!-- Valores (lado izquierdo) -->
+        <div class="col-lg-6 reveal">
+          <div class="card card-feature h-100">
+            <div class="card-body p-4">
+              <h3 class="h4 mb-4 text-center text-primary-liceo">
+                <i class="bi bi-heart-fill me-2"></i>Valores
+              </h3>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <i class="bi bi-check-circle-fill text-success me-2"></i>
+                  <strong>Responsabilidad:</strong> Ser consciente de las obligaciones y compromisos, cumpliendo con ellos de manera efectiva y asumir las consecuencias de las acciones.
+                </li>
+                <li class="mb-3">
+                  <i class="bi bi-check-circle-fill text-success me-2"></i>
+                  <strong>Honestidad:</strong> Ser sincero y transparente en las acciones y los discursos emitidos.
+                </li>
+                <li class="mb-3">
+                  <i class="bi bi-check-circle-fill text-success me-2"></i>
+                  <strong>Tolerancia:</strong> Valorar la diversidad y promover la convivencia pacífica y armoniosa entre las personas.
+                </li>
+                <li class="mb-3">
+                  <i class="bi bi-check-circle-fill text-success me-2"></i>
+                  <strong>Autonomía:</strong> Tomar decisiones y actuar de manera independiente en el aprendizaje, sin depender de la influencia o control de otros.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Competencias (lado derecho) -->
+        <div class="col-lg-6 reveal">
+          <div class="card card-feature h-100">
+            <div class="card-body p-4">
+              <h3 class="h4 mb-4 text-center text-primary-liceo">
+                <i class="bi bi-gear-fill me-2"></i>Competencias
+              </h3>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <i class="bi bi-star-fill text-warning me-2"></i>
+                  <strong>Desarrollo de la creatividad e innovación:</strong> Generar ideas o soluciones originales e innovadoras para resolver problemas o crear algo nuevo.
+                </li>
+                <li class="mb-3">
+                  <i class="bi bi-star-fill text-warning me-2"></i>
+                  <strong>Comunicación efectiva:</strong> Hablar y escuchar usando medios tecnológicos. Escribir de manera clara, correos electrónicos y usar redes sociales.
+                </li>
+                <li class="mb-3">
+                  <i class="bi bi-star-fill text-warning me-2"></i>
+                  <strong>Disposición para el trabajo en equipo:</strong> Trabajar juntos para lograr un objetivo común fomentando la creatividad, la innovación y el aprendizaje mutuo.
+                </li>
+                <li class="mb-3">
+                  <i class="bi bi-star-fill text-warning me-2"></i>
+                  <strong>Manejo eficiente Uso de las TIC's:</strong> Utilizar de manera eficiente las herramientas tecnológicas disponibles para procesar, almacenar, transmitir y compartir información. Incluye el uso de computadores, aplicaciones, internet, entre otras.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="text-center reveal">
+        <h3 class="h4 mb-3">¿Compartes nuestros valores?</h3>
+        <p class="text-muted mb-4">Ãšnete a nuestra comunidad educativa</p>
+        <div class="d-flex gap-3 justify-content-center flex-wrap">
+          <a href="./admision.html" class="btn btn-primary-liceo btn-lg px-4">
+            <i class="bi bi-arrow-right-circle me-2"></i>Proceso de Admisión
+          </a>
+          <a href="./nosotros-historia.html" class="btn btn-outline-primary-liceo btn-lg px-4">
+            <i class="bi bi-clock-history me-2"></i>Conoce Nuestra Historia
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <!-- Footer Moderno y Dinámico -->
+<footer class="footer-modern">
+  <!-- Sección Principal del Footer -->
+  <div class="footer-main">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Columna 1: Identidad del Liceo -->
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand">
+            <div class="d-flex align-items-center gap-3 mb-4">
+              <div class="footer-logo-circle">
+                <i class="bi bi-mortarboard-fill"></i>
+              </div>
+              <div>
+                <h3 class="footer-brand-title mb-0">Liceo</h3>
+                <p class="footer-brand-subtitle mb-0">Excelencia Educativa</p>
+              </div>
+            </div>
+            <p class="footer-description">
+              Formando líderes del mañana con valores, conocimiento y compromiso. Una comunidad educativa que impulsa el desarrollo integral de cada estudiante.
+            </p>
+            
+            <!-- Estadísticas Rápidas -->
+            <div class="footer-stats">
+              <div class="footer-stat-item">
+                <i class="bi bi-award-fill"></i>
+                <div>
+                  <strong>50+</strong>
+                  <span>Años de Historia</span>
+                </div>
+              </div>
+              <div class="footer-stat-item">
+                <i class="bi bi-people-fill"></i>
+                <div>
+                  <strong>500+</strong>
+                  <span>Estudiantes</span>
+                </div>
+              </div>
+              <div class="footer-stat-item">
+                <i class="bi bi-book-fill"></i>
+                <div>
+                  <strong>25+</strong>
+                  <span>Profesores</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Columna 2: Enlaces Rápidos - Institución -->
+        <div class="col-lg-2 col-md-6">
+          <h4 class="footer-title">
+            <i class="bi bi-building me-2"></i>Institución
+          </h4>
+          <ul class="footer-links">
+            <li><a href="./index.html"><i class="bi bi-house-door"></i> Inicio</a></li>
+            <li><a href="./nosotros-historia.html"><i class="bi bi-clock-history"></i> Nuestra Historia</a></li>
+            <li><a href="./nosotros-mision.html"><i class="bi bi-bullseye"></i> Misión, Visión y Sellos</a></li>
+            <li><a href="./nosotros-pme.html"><i class="bi bi-journal-text"></i> PME</a></li>
+            <li><a href="./nosotros-comunidad.html"><i class="bi bi-people"></i> Comunidad</a></li>
+            <li><a href="./documentos.html"><i class="bi bi-file-earmark-text"></i> Documentos</a></li>
+          </ul>
+        </div>
+        
+        <!-- Columna 3: Enlaces Rápidos - Educación -->
+        <div class="col-lg-2 col-md-6">
+          <h4 class="footer-title">
+            <i class="bi bi-mortarboard me-2"></i>Educación
+          </h4>
+          <ul class="footer-links">
+            <li><a href="./oferta.html"><i class="bi bi-book"></i> Oferta Educativa</a></li>
+            <li><a href="./talleres.html"><i class="bi bi-palette"></i> Talleres</a></li>
+            <li><a href="./calendario-evaluaciones.html"><i class="bi bi-calendar-check"></i> Evaluaciones</a></li>
+            <li><a href="./uniforme.html"><i class="bi bi-person-badge"></i> Uniforme</a></li>
+            <li><a href="./admision.html"><i class="bi bi-door-open"></i> Admisión</a></li>
+            <li><a href="./noticias.html"><i class="bi bi-newspaper"></i> Noticias</a></li>
+          </ul>
+        </div>
+        
+        <!-- Columna 4: Contacto y Redes -->
+        <div class="col-lg-4 col-md-6">
+          <h4 class="footer-title">
+            <i class="bi bi-chat-dots me-2"></i>Contáctanos
+          </h4>
+          
+          <!-- Información de Contacto -->
+          <div class="footer-contact-info">
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Dirección</strong>
+                <p>4 Norte 0417<br>Talca, Chile</p>
+              </div>
+            </div>
+            
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-envelope-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Email</strong>
+                <p><a href="mailto:contacto@liceo.edu.cl">contacto@liceo.edu.cl</a></p>
+              </div>
+            </div>
+            
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Teléfonos</strong>
+                <p><a href="tel:+56712330863">71 233 0863</a><br>
+                <a href="tel:+56979259924">97 925 9924</a></p>
+              </div>
+            </div>
+            
+            <div class="footer-contact-item">
+              <div class="footer-contact-icon">
+                <i class="bi bi-clock-fill"></i>
+              </div>
+              <div class="footer-contact-text">
+                <strong>Horario</strong>
+                <p>Lun - Vie: 8:00 - 18:00 hrs</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Redes Sociales -->
+          <div class="footer-social">
+            <h5 class="footer-social-title">Síguenos</h5>
+            <div class="footer-social-links">
+              <a href="#" class="footer-social-link facebook" aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#" class="footer-social-link instagram" aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="#" class="footer-social-link twitter" aria-label="Twitter">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a href="#" class="footer-social-link youtube" aria-label="YouTube">
+                <i class="bi bi-youtube"></i>
+              </a>
+              <a href="#" class="footer-social-link linkedin" aria-label="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Barra Inferior del Footer -->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center text-lg-start mb-3 mb-lg-0">
+          <p class="footer-copyright mb-0">
+            <i class="bi bi-c-circle me-1"></i>
+            <span id="year"></span> <strong>Liceo</strong>. Todos los derechos reservados.
+          </p>
+        </div>
+        <div class="col-lg-6 text-center text-lg-end">
+          <div class="footer-legal-links">
+            <a href="./sitemap.html">
+              <i class="bi bi-diagram-3"></i> Mapa del Sitio
+            </a>
+            <span class="footer-divider">|</span>
+            <a href="./privacidad.html">
+              <i class="bi bi-shield-check"></i> Privacidad
+            </a>
+            <span class="footer-divider">|</span>
+            <a href="./terminos.html">
+              <i class="bi bi-file-text"></i> Términos
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Decoración de Fondo -->
+  <div class="footer-decoration">
+    <div class="footer-wave"></div>
+  </div>
+</footer>
+
+<!-- Script para actualizar el año automáticamente -->
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+
+  <button class="back-to-top" id="backTop" aria-label="Ir arriba" title="Ir arriba"><i class="bi bi-chevron-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('visible'); });
+    },{threshold:.2});
+    document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+    
+    const backTop = document.getElementById('backTop');
+    window.addEventListener('scroll',()=>{
+      const nav = document.querySelector('.navbar-liceo');
+      nav.classList.toggle('navbar-elevated', window.scrollY>12);
+      backTop.classList.toggle('show', window.scrollY>240);
+    });
+    backTop.addEventListener('click',()=> window.scrollTo({top:0, behavior:'smooth'}));
+  </script>
+  <!-- <script src="./js/load-components.js"></script> (Inlined by build script) -->
+</body>
+</html>
+
+
+

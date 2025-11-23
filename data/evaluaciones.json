@@ -1,0 +1,168 @@
+[
+  {
+    "id": 1,
+    "fecha": "2025-10-10",
+    "asignatura": "Matemática",
+    "profesor": "Prof. María González",
+    "contenido": "Álgebra: Ecuaciones de segundo grado, factorización y sistemas de ecuaciones lineales",
+    "estrategia_evaluacion": "Prueba Escrita",
+    "indicadores_evaluacion": "Resuelve ecuaciones cuadráticas mediante diferentes métodos (factorización, fórmula general). Identifica y aplica propiedades algebraicas. Interpreta resultados en contextos reales.",
+    "retroalimentacion": "Se entregará corrección detallada en clase. Refuerzo disponible en horario de consulta (martes 15:00-16:00)",
+    "curso": "1° Medio A"
+  },
+  {
+    "id": 2,
+    "fecha": "2025-10-12",
+    "asignatura": "Lenguaje y Comunicación",
+    "profesor": "Prof. Carlos Rojas",
+    "contenido": "Comprensión lectora: Textos narrativos, estructura del cuento y análisis de personajes",
+    "estrategia_evaluacion": "Prueba",
+    "indicadores_evaluacion": "Identifica elementos narrativos (narrador, tiempo, espacio). Analiza caracterización de personajes. Infiere significados implícitos del texto.",
+    "retroalimentacion": "Retroalimentación individual escrita. Sesión grupal de análisis el viernes siguiente.",
+    "curso": "1° Medio A"
+  },
+  {
+    "id": 3,
+    "fecha": "2025-10-15",
+    "asignatura": "Ciencias Naturales",
+    "profesor": "Prof. Ana Martínez",
+    "contenido": "Biología: La célula, estructura celular y funciones de organelos",
+    "estrategia_evaluacion": "Laboratorio",
+    "indicadores_evaluacion": "Reconoce estructuras celulares al microscopio. Diferencia células procariotas y eucariotas. Relaciona estructura con función de organelos.",
+    "retroalimentacion": "Informe de laboratorio con observaciones. Retroalimentación práctica durante la sesión.",
+    "curso": "1° Medio B"
+  },
+  {
+    "id": 4,
+    "fecha": "2025-10-18",
+    "asignatura": "Historia y Geografía",
+    "profesor": "Prof. Pedro Valenzuela",
+    "contenido": "Civilizaciones antiguas: Mesopotamia, Egipto y su legado cultural",
+    "estrategia_evaluacion": "Ensayo",
+    "indicadores_evaluacion": "Compara características de civilizaciones antiguas. Argumenta sobre el legado cultural. Utiliza fuentes históricas como evidencia.",
+    "retroalimentacion": "Rúbrica de evaluación entregada previamente. Comentarios escritos en cada ensayo.",
+    "curso": "1° Medio C"
+  },
+  {
+    "id": 5,
+    "fecha": "2025-10-20",
+    "asignatura": "Inglés",
+    "profesor": "Prof. Jennifer Smith",
+    "contenido": "Simple Past Tense: Verbos regulares e irregulares, narración de eventos pasados",
+    "estrategia_evaluacion": "Oral",
+    "indicadores_evaluacion": "Utiliza correctamente el tiempo pasado simple. Narra eventos con coherencia temporal. Pronunciación y fluidez adecuadas.",
+    "retroalimentacion": "Feedback inmediato durante la evaluación. Grabación disponible para auto-evaluación.",
+    "curso": "2° Medio A"
+  },
+  {
+    "id": 6,
+    "fecha": "2025-10-22",
+    "asignatura": "Educación Física",
+    "profesor": "Prof. Roberto Torres",
+    "contenido": "Fundamentos del básquetbol: Pase, dribling y lanzamiento",
+    "estrategia_evaluacion": "Práctica",
+    "indicadores_evaluacion": "Ejecuta técnicas básicas correctamente. Demuestra coordinación y control del balón. Aplica fundamentos en situación de juego.",
+    "retroalimentacion": "Observación directa con pauta de cotejo. Sugerencias de mejora personalizadas.",
+    "curso": "2° Medio B"
+  },
+  {
+    "id": 7,
+    "fecha": "2025-10-25",
+    "asignatura": "Química",
+    "profesor": "Prof. Laura Díaz",
+    "contenido": "Tabla periódica: Grupos, períodos y propiedades periódicas de los elementos",
+    "estrategia_evaluacion": "Prueba Escrita",
+    "indicadores_evaluacion": "Identifica grupos y períodos en la tabla periódica. Predice propiedades según ubicación. Relaciona estructura atómica con propiedades químicas.",
+    "retroalimentacion": "Corrección en clase con ejercicios adicionales. Material de apoyo en plataforma virtual.",
+    "curso": "2° Medio C"
+  },
+  {
+    "id": 8,
+    "fecha": "2025-10-27",
+    "asignatura": "Filosofía",
+    "profesor": "Prof. Marcos Silva",
+    "contenido": "Introducción al pensamiento filosófico: Sócrates, Platón y Aristóteles",
+    "estrategia_evaluacion": "Disertación",
+    "indicadores_evaluacion": "Explica conceptos filosóficos fundamentales. Compara posturas de diferentes filósofos. Argumenta posición personal de forma fundamentada.",
+    "retroalimentacion": "Evaluación con rúbrica. Comentarios sobre argumentación y presentación.",
+    "curso": "3° Medio A"
+  },
+  {
+    "id": 9,
+    "fecha": "2025-10-01",
+    "asignatura": "Física",
+    "profesor": "Prof. Fernando Muñoz",
+    "contenido": "Cinemática: Movimiento rectilíneo uniforme y acelerado",
+    "estrategia_evaluacion": "Prueba",
+    "indicadores_evaluacion": "Aplica ecuaciones del movimiento. Interpreta gráficos de posición y velocidad. Resuelve problemas de movimiento en contextos reales.",
+    "retroalimentacion": "Revisión de errores conceptuales en sesión de consulta. Ejercicios de refuerzo disponibles.",
+    "curso": "3° Medio B"
+  },
+  {
+    "id": 10,
+    "fecha": "2025-10-03",
+    "asignatura": "Artes Visuales",
+    "profesor": "Prof. Carolina Reyes",
+    "contenido": "Técnicas de pintura: Acuarela y composición artística",
+    "estrategia_evaluacion": "Proyecto",
+    "indicadores_evaluacion": "Aplica técnicas de acuarela correctamente. Demuestra comprensión de composición. Expresa creatividad y mensaje personal.",
+    "retroalimentacion": "Retroalimentación durante proceso creativo. Evaluación final con criterios artísticos.",
+    "curso": "3° Medio C"
+  },
+  {
+    "id": 11,
+    "fecha": "2025-10-08",
+    "asignatura": "Matemática",
+    "profesor": "Prof. Ricardo Campos",
+    "contenido": "Cálculo: Límites, continuidad y derivadas básicas",
+    "estrategia_evaluacion": "Prueba Escrita",
+    "indicadores_evaluacion": "Calcula límites aplicando propiedades. Determina continuidad de funciones. Resuelve derivadas de funciones elementales.",
+    "retroalimentacion": "Corrección detallada con explicación de procedimientos. Taller de refuerzo disponible.",
+    "curso": "4° Medio A"
+  },
+  {
+    "id": 12,
+    "fecha": "2025-10-10",
+    "asignatura": "Literatura",
+    "profesor": "Prof. Patricia Morales",
+    "contenido": "Literatura latinoamericana: Boom latinoamericano y realismo mágico",
+    "estrategia_evaluacion": "Ensayo",
+    "indicadores_evaluacion": "Analiza características del boom latinoamericano. Identifica elementos del realismo mágico. Argumenta interpretación personal con evidencias textuales.",
+    "retroalimentacion": "Comentarios escritos detallados. Sesión de retroalimentación grupal.",
+    "curso": "4° Medio B"
+  },
+  {
+    "id": 13,
+    "fecha": "2025-10-15",
+    "asignatura": "Biología",
+    "profesor": "Prof. Daniela Castro",
+    "contenido": "Genética: Leyes de Mendel y herencia genética",
+    "estrategia_evaluacion": "Trabajo de Laboratorio",
+    "indicadores_evaluacion": "Aplica leyes de Mendel en problemas genéticos. Interpreta cruces genéticos. Predice genotipos y fenotipos.",
+    "retroalimentacion": "Informe de laboratorio con corrección de ejercicios. Consulta disponible.",
+    "curso": "4° Medio C"
+  },
+  {
+    "id": 14,
+    "fecha": "2025-10-17",
+    "asignatura": "Educación Ciudadana",
+    "profesor": "Prof. Miguel Ángel Soto",
+    "contenido": "Democracia y participación: Sistemas políticos y derechos ciudadanos",
+    "estrategia_evaluacion": "Presentación",
+    "indicadores_evaluacion": "Explica funcionamiento de sistemas democráticos. Identifica derechos y deberes ciudadanos. Propone formas de participación activa.",
+    "retroalimentacion": "Retroalimentación oral inmediata. Rúbrica de evaluación compartida.",
+    "curso": "3° Medio A"
+  },
+  {
+    "id": 15,
+    "fecha": "2025-10-22",
+    "asignatura": "Tecnología",
+    "profesor": "Prof. Andrés Vega",
+    "contenido": "Programación: Introducción a Python y estructuras de control",
+    "estrategia_evaluacion": "Taller",
+    "indicadores_evaluacion": "Escribe programas básicos en Python. Utiliza estructuras condicionales y ciclos. Resuelve problemas mediante algoritmos.",
+    "retroalimentacion": "Revisión de código con sugerencias de mejora. Apoyo técnico disponible.",
+    "curso": "2° Medio A"
+  }
+]
+

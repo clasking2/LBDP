@@ -1,0 +1,343 @@
+[
+  {
+    "id": 1,
+    "fecha": "2025-01-01",
+    "titulo": "Año Nuevo",
+    "descripcion": "Feriado nacional - Año Nuevo",
+    "categoria": "Feriado",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-01-01T00:00:00"
+  },
+  {
+    "id": 2,
+    "fecha": "2025-03-03",
+    "titulo": "Inicio del Año Escolar 2025",
+    "descripcion": "Primer día de clases del año académico",
+    "categoria": "Académico",
+    "lugar": "Todo el Liceo",
+    "hora": "08:00",
+    "timestamp": "2025-03-03T08:00:00"
+  },
+  {
+    "id": 3,
+    "fecha": "2025-03-04",
+    "titulo": "Acto de Inicio de Año",
+    "descripcion": "Ceremonia de bienvenida al año escolar 2025",
+    "categoria": "Ceremonia",
+    "lugar": "Patio Central",
+    "hora": "08:30",
+    "timestamp": "2025-03-04T08:30:00"
+  },
+  {
+    "id": 4,
+    "fecha": "2025-03-15",
+    "titulo": "Reunión de Apoderados 1º Medio",
+    "descripcion": "Primera reunión del año para padres de 1º medio",
+    "categoria": "Reunión",
+    "lugar": "Sala 101",
+    "hora": "19:00",
+    "timestamp": "2025-03-15T19:00:00"
+  },
+  {
+    "id": 5,
+    "fecha": "2025-03-22",
+    "titulo": "Charla de Orientación Vocacional",
+    "descripcion": "Charla para estudiantes de 4º medio sobre opciones universitarias",
+    "categoria": "Académico",
+    "lugar": "Auditorio",
+    "hora": "14:30",
+    "timestamp": "2025-03-22T14:30:00"
+  },
+  {
+    "id": 6,
+    "fecha": "2025-04-02",
+    "titulo": "Feria de Ciencias",
+    "descripcion": "Exposición de proyectos científicos de todos los niveles",
+    "categoria": "Académico",
+    "lugar": "Gimnasio",
+    "hora": "10:00",
+    "timestamp": "2025-04-02T10:00:00"
+  },
+  {
+    "id": 7,
+    "fecha": "2025-04-18",
+    "titulo": "Viernes Santo",
+    "descripcion": "Feriado religioso nacional",
+    "categoria": "Feriado",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-04-18T00:00:00"
+  },
+  {
+    "id": 8,
+    "fecha": "2025-04-19",
+    "titulo": "Sábado Santo",
+    "descripcion": "Feriado religioso nacional",
+    "categoria": "Feriado",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-04-19T00:00:00"
+  },
+  {
+    "id": 9,
+    "fecha": "2025-04-27",
+    "titulo": "Día del Patrimonio Cultural",
+    "descripcion": "Actividades culturales y visitas patrimoniales",
+    "categoria": "Cultural",
+    "lugar": "Todo el Liceo",
+    "hora": "09:00",
+    "timestamp": "2025-04-27T09:00:00"
+  },
+  {
+    "id": 10,
+    "fecha": "2025-05-01",
+    "titulo": "Día del Trabajo",
+    "descripcion": "Feriado nacional - Día del Trabajador",
+    "categoria": "Feriado",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-05-01T00:00:00"
+  },
+  {
+    "id": 11,
+    "fecha": "2025-05-11",
+    "titulo": "Día del Alumno",
+    "descripcion": "Celebración del día del estudiante con actividades especiales",
+    "categoria": "Celebración",
+    "lugar": "Patio Central",
+    "hora": "11:00",
+    "timestamp": "2025-05-11T11:00:00"
+  },
+  {
+    "id": 12,
+    "fecha": "2025-05-21",
+    "titulo": "Día de las Glorias Navales",
+    "descripcion": "Acto conmemorativo del Combate Naval de Iquique",
+    "categoria": "Ceremonia",
+    "lugar": "Auditorio",
+    "hora": "10:00",
+    "timestamp": "2025-05-21T10:00:00"
+  },
+  {
+    "id": 13,
+    "fecha": "2025-06-07",
+    "titulo": "Asalto y Toma de Arica",
+    "descripcion": "Feriado nacional conmemorativo",
+    "categoria": "Feriado",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-06-07T00:00:00"
+  },
+  {
+    "id": 14,
+    "fecha": "2025-06-15",
+    "titulo": "Muestra de Talleres Extraescolares",
+    "descripcion": "Presentación de trabajos de talleres de arte, deporte y tecnología",
+    "categoria": "Cultural",
+    "lugar": "Gimnasio",
+    "hora": "15:00",
+    "timestamp": "2025-06-15T15:00:00"
+  },
+  {
+    "id": 15,
+    "fecha": "2025-06-20",
+    "titulo": "Día Nacional de los Pueblos Indígenas",
+    "descripcion": "Feriado nacional - Solsticio de invierno",
+    "categoria": "Feriado",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-06-20T00:00:00"
+  },
+  {
+    "id": 16,
+    "fecha": "2025-06-29",
+    "titulo": "San Pedro y San Pablo",
+    "descripcion": "Feriado religioso nacional",
+    "categoria": "Feriado",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-06-29T00:00:00"
+  },
+  {
+    "id": 17,
+    "fecha": "2025-07-01",
+    "titulo": "Entrega de Informes 1º Semestre",
+    "descripcion": "Entrega de notas y logros del primer semestre",
+    "categoria": "Académico",
+    "lugar": "Salas de clase",
+    "hora": "17:00",
+    "timestamp": "2025-07-01T17:00:00"
+  },
+  {
+    "id": 18,
+    "fecha": "2025-07-14",
+    "titulo": "Inicio Vacaciones de Invierno",
+    "descripcion": "Inicio del receso escolar de invierno",
+    "categoria": "Vacaciones",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-07-14T00:00:00"
+  },
+  {
+    "id": 19,
+    "fecha": "2025-07-16",
+    "titulo": "Día de la Virgen del Carmen",
+    "descripcion": "Feriado religioso nacional - Patrona de Chile",
+    "categoria": "Feriado",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-07-16T00:00:00"
+  },
+  {
+    "id": 20,
+    "fecha": "2025-07-28",
+    "titulo": "Regreso de Vacaciones de Invierno",
+    "descripcion": "Vuelta a clases después del receso invernal",
+    "categoria": "Académico",
+    "lugar": "Todo el Liceo",
+    "hora": "08:00",
+    "timestamp": "2025-07-28T08:00:00"
+  },
+  {
+    "id": 21,
+    "fecha": "2025-08-15",
+    "titulo": "Asunción de la Virgen",
+    "descripcion": "Feriado religioso nacional",
+    "categoria": "Feriado",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-08-15T00:00:00"
+  },
+  {
+    "id": 22,
+    "fecha": "2025-09-12",
+    "titulo": "Olimpiadas Deportivas Internas",
+    "descripcion": "Competencias deportivas inter-cursos",
+    "categoria": "Deportivo",
+    "lugar": "Cancha Deportiva",
+    "hora": "09:00",
+    "timestamp": "2025-09-12T09:00:00"
+  },
+  {
+    "id": 23,
+    "fecha": "2025-09-18",
+    "titulo": "Día de la Independencia Nacional",
+    "descripcion": "Feriado patrio - Primera Junta Nacional de Gobierno",
+    "categoria": "Feriado",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-09-18T00:00:00"
+  },
+  {
+    "id": 24,
+    "fecha": "2025-09-19",
+    "titulo": "Día de las Glorias del Ejército",
+    "descripcion": "Feriado patrio nacional",
+    "categoria": "Feriado",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-09-19T00:00:00"
+  },
+  {
+    "id": 25,
+    "fecha": "2025-09-20",
+    "titulo": "Fiestas Patrias - Día Feriado",
+    "descripcion": "Día adicional por Fiestas Patrias",
+    "categoria": "Feriado",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-09-20T00:00:00"
+  },
+  {
+    "id": 26,
+    "fecha": "2025-10-12",
+    "titulo": "Encuentro de Dos Mundos",
+    "descripcion": "Feriado nacional - Día de la Raza",
+    "categoria": "Feriado",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-10-12T00:00:00"
+  },
+  {
+    "id": 27,
+    "fecha": "2025-10-16",
+    "titulo": "Día del Profesor",
+    "descripcion": "Celebración del día del educador chileno",
+    "categoria": "Celebración",
+    "lugar": "Auditorio",
+    "hora": "11:00",
+    "timestamp": "2025-10-16T11:00:00"
+  },
+  {
+    "id": 28,
+    "fecha": "2025-10-27",
+    "titulo": "Día Nacional de las Iglesias Evangélicas y Protestantes",
+    "descripcion": "Feriado religioso nacional",
+    "categoria": "Feriado",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-10-27T00:00:00"
+  },
+  {
+    "id": 29,
+    "fecha": "2025-10-31",
+    "titulo": "Halloween - Actividad Cultural",
+    "descripcion": "Actividad recreativa de Halloween",
+    "categoria": "Cultural",
+    "lugar": "Patio Central",
+    "hora": "15:00",
+    "timestamp": "2025-10-31T15:00:00"
+  },
+  {
+    "id": 30,
+    "fecha": "2025-11-01",
+    "titulo": "Día de Todos los Santos",
+    "descripcion": "Feriado religioso nacional",
+    "categoria": "Feriado",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-11-01T00:00:00"
+  },
+  {
+    "id": 31,
+    "fecha": "2025-11-15",
+    "titulo": "Ceremonia de Graduación 4º Medio",
+    "descripcion": "Ceremonia de licenciatura promoción 2025",
+    "categoria": "Ceremonia",
+    "lugar": "Auditorio",
+    "hora": "19:00",
+    "timestamp": "2025-11-15T19:00:00"
+  },
+  {
+    "id": 32,
+    "fecha": "2025-12-08",
+    "titulo": "Inmaculada Concepción",
+    "descripcion": "Feriado religioso nacional",
+    "categoria": "Feriado",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-12-08T00:00:00"
+  },
+  {
+    "id": 33,
+    "fecha": "2025-12-15",
+    "titulo": "Clausura del Año Escolar 2025",
+    "descripcion": "Ceremonia oficial de cierre del año académico",
+    "categoria": "Ceremonia",
+    "lugar": "Patio Central",
+    "hora": "10:00",
+    "timestamp": "2025-12-15T10:00:00"
+  },
+  {
+    "id": 34,
+    "fecha": "2025-12-25",
+    "titulo": "Navidad",
+    "descripcion": "Feriado religioso nacional - Natividad del Señor",
+    "categoria": "Feriado",
+    "lugar": "",
+    "hora": "",
+    "timestamp": "2025-12-25T00:00:00"
+  }
+]
+
