@@ -9,16 +9,25 @@ function currentList() {
 }
 
 function render() {
-    if (!grid) return;
+    console.log('🎨 render() iniciada');
+    console.log('🎨 grid:', grid);
+    if (!grid) {
+        console.error('❌ grid no encontrado!');
+        return;
+    }
 
     const list = currentList();
+    console.log('🎨 list:', list);
+    console.log('🎨 list.length:', list.length);
     const totalPages = Math.max(1, Math.ceil(list.length / state.pageSize));
     state.page = Math.min(state.page, totalPages);
     const items = list.slice((state.page - 1) * state.pageSize, state.page * state.pageSize);
+    console.log('🎨 items a renderizar:', items);
 
     grid.innerHTML = '';
 
     if (items.length === 0) {
+        console.log('⚠️ No hay items para mostrar');
         grid.innerHTML = '<div class="col-12 text-center text-muted py-5">No hay noticias disponibles</div>';
         return;
     }
@@ -115,12 +124,17 @@ function openDetail(id) {
 
 // Cargar noticias desde JSON
 async function loadNews() {
+    console.log('📰 loadNews() iniciada');
     try {
         await loadNewsFromJSON();
+        console.log('📰 loadNewsFromJSON() completada');
+        console.log('📰 window.NEWS_DATA:', window.NEWS_DATA);
         NEWS = window.NEWS_DATA;
+        console.log('📰 NEWS local:', NEWS);
+        console.log('📰 Llamando a render()...');
         render();
     } catch (error) {
-        console.error('Error cargando noticias:', error);
+        console.error('❌ Error en loadNews():', error);
         NEWS = [];
         render();
     }
