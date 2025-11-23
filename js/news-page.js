@@ -70,22 +70,21 @@ function render() {
     });
 
     // Re-inicializar animaciones para los nuevos elementos
-    if (window.initRevealAnimations) {
-        // Si la función global existe (en load-components.js), usarla
-        // Pero como initRevealAnimations usa querySelectorAll('.reveal'), funcionará si la llamamos de nuevo
-        // O mejor, simplemente observamos los nuevos elementos si tenemos acceso al observer global, 
-        // pero como no lo tenemos fácil, confiamos en que el CSS y la clase reveal hagan su trabajo 
-        // si el observer está vivo.
-        // Sin embargo, el observer de load-components.js observa elementos existentes al inicio.
-        // Necesitamos una forma de observar nuevos elementos.
-        // Por simplicidad, crearemos un observer local pequeño para esta página dinámica.
-        const io = new IntersectionObserver((entries) => {
-            entries.forEach(e => {
-                if (e.isIntersecting) e.target.classList.add('visible');
-            });
-        }, { threshold: .2 });
-        document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-    }
+    console.log('🎨 Inicializando IntersectionObserver para elementos .reveal');
+    const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+            if (e.isIntersecting) {
+                console.log('👁️ Elemento visible:', e.target);
+                e.target.classList.add('visible');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('#newsGrid .reveal').forEach(el => {
+        console.log('👀 Observando elemento:', el);
+        io.observe(el);
+    });
+    console.log('✅ IntersectionObserver configurado');
 }
 
 function openDetail(id) {
