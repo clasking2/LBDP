@@ -117,7 +117,7 @@ function openDetail(id) {
 async function loadNews() {
     try {
         await loadNewsFromJSON();
-        NEWS = NEWS_DATA;
+        NEWS = window.NEWS_DATA;
         render();
     } catch (error) {
         console.error('Error cargando noticias:', error);

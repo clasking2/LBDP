@@ -13,7 +13,7 @@
               "media": {
                 "image": {
                   "height": 720,
-                  "src": "https://images.pexels.com/photos/33415773/pexels-photo-33415773.jpeg",
+                  "src": "./assets/img/campus-moderno.jpg",
                   "width": 1280
                 }
               },
@@ -25,7 +25,7 @@
                     "media": {
                       "image": {
                         "height": 720,
-                        "src": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+                        "src": "./assets/img/estudiantes.jpg",
                         "width": 1280
                       }
                     }
@@ -34,7 +34,7 @@
                     "media": {
                       "image": {
                         "height": 720,
-                        "src": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b",
+                        "src": "./assets/img/edificio-institucional.jpg",
                         "width": 1280
                       }
                     }
@@ -55,7 +55,7 @@
               "media": {
                 "image": {
                   "height": 720,
-                  "src": "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad",
+                  "src": "./assets/img/ciencias.jpg",
                   "width": 1280
                 }
               },
@@ -75,7 +75,7 @@
               "media": {
                 "image": {
                   "height": 720,
-                  "src": "https://images.unsplash.com/photo-1557804506-669a67965ba0",
+                  "src": "./assets/img/historia-del-liceo.jpg",
                   "width": 1280
                 }
               },
@@ -87,7 +87,7 @@
                     "media": {
                       "image": {
                         "height": 720,
-                        "src": "https://images.unsplash.com/photo-1531482615713-2afd69097998",
+                        "src": "./assets/img/pintura-y-artes-visuales.jpg",
                         "width": 1280
                       }
                     }
@@ -108,7 +108,7 @@
               "media": {
                 "image": {
                   "height": 720,
-                  "src": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+                  "src": "./assets/img/danza.jpg",
                   "width": 1280
                 }
               },
@@ -120,7 +120,7 @@
                     "media": {
                       "image": {
                         "height": 720,
-                        "src": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1",
+                        "src": "./assets/img/musica.jpg",
                         "width": 1280
                       }
                     }
@@ -129,16 +129,7 @@
                     "media": {
                       "image": {
                         "height": 720,
-                        "src": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
-                        "width": 1280
-                      }
-                    }
-                  },
-                  {
-                    "media": {
-                      "image": {
-                        "height": 720,
-                        "src": "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a",
+                        "src": "./assets/img/teatro.jpg",
                         "width": 1280
                       }
                     }
@@ -159,7 +150,7 @@
               "media": {
                 "image": {
                   "height": 720,
-                  "src": "https://images.unsplash.com/photo-1577896851231-70ef18881754",
+                  "src": "./assets/img/edificio-blanco.jpg",
                   "width": 1280
                 }
               },
@@ -179,7 +170,7 @@
               "media": {
                 "image": {
                   "height": 720,
-                  "src": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=1200&q=80",
+                  "src": "./assets/img/estudiantes.jpg",
                   "width": 1280
                 }
               },
@@ -191,7 +182,73 @@
                     "media": {
                       "image": {
                         "height": 720,
-                        "src": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80",
+                        "src": "./assets/img/edificio-institucional.jpg",
+                        "width": 1280
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "post_id_7",
+        "created_time": "2025-11-23T10:00:00+0000",
+        "message": "Exitosa jornada en nuestra Feria de Ciencias. Agradecemos a todos los estudiantes que presentaron sus proyectos de robótica y experimentos científicos. ¡El futuro es brillante!",
+        "attachments": {
+          "data": [
+            {
+              "media": {
+                "image": {
+                  "height": 720,
+                  "src": "./assets/img/robotica.jpg",
+                  "width": 1280
+                }
+              },
+              "title": "Feria de Ciencias y Tecnología",
+              "url": "",
+              "subattachments": {
+                "data": [
+                  {
+                    "media": {
+                      "image": {
+                        "height": 720,
+                        "src": "./assets/img/ciencias.jpg",
+                        "width": 1280
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "post_id_8",
+        "created_time": "2025-12-06T18:00:00+0000",
+        "message": "Impresionante muestra de talentos en nuestro cierre de talleres extraescolares. Música, danza y teatro se tomaron el escenario. ¡Felicitaciones a todos los artistas!",
+        "attachments": {
+          "data": [
+            {
+              "media": {
+                "image": {
+                  "height": 720,
+                  "src": "./assets/img/teatro.jpg",
+                  "width": 1280
+                }
+              },
+              "title": "Muestra de Talleres 2025",
+              "url": "",
+              "subattachments": {
+                "data": [
+                  {
+                    "media": {
+                      "image": {
+                        "height": 720,
+                        "src": "./assets/img/danza.jpg",
                         "width": 1280
                       }
                     }
@@ -200,13 +257,33 @@
                     "media": {
                       "image": {
                         "height": 720,
-                        "src": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80",
+                        "src": "./assets/img/musica.jpg",
                         "width": 1280
                       }
                     }
                   }
                 ]
               }
+            }
+          ]
+        }
+      },
+      {
+        "id": "post_id_9",
+        "created_time": "2025-12-16T12:00:00+0000",
+        "message": "Cerramos un año académico lleno de logros y aprendizajes. Agradecemos a toda la comunidad educativa por su compromiso. ¡Les deseamos unas felices vacaciones y un próspero 2026!",
+        "attachments": {
+          "data": [
+            {
+              "media": {
+                "image": {
+                  "height": 720,
+                  "src": "./assets/img/edificio-institucional.jpg",
+                  "width": 1280
+                }
+              },
+              "title": "Cierre Año Escolar 2025",
+              "url": ""
             }
           ]
         }

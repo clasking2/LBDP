@@ -12,17 +12,17 @@ class AdvancedCalendar {
     this.currentMonth = this.currentDate.getMonth();
     this.currentYear = this.currentDate.getFullYear();
     this.selectedCategory = 'all';
-    
+
     this.monthNames = [
       'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
       'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
     ];
-    
+
     this.dayNames = ['Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb', 'Dom'];
-    
+
     this.categoryColors = {
       'Ceremonia': 'bg-primary text-white',
-      'Reunión': 'bg-info text-white', 
+      'Reunión': 'bg-info text-white',
       'Académico': 'bg-success text-white',
       'Cultural': 'bg-warning text-dark',
       'Celebración': 'bg-danger text-white',
@@ -30,20 +30,20 @@ class AdvancedCalendar {
       'Feriado': 'bg-dark text-white',
       'Vacaciones': 'bg-light text-dark'
     };
-    
+
     this.init();
   }
-  
+
   async init() {
     await this.loadActivities();
     this.render();
     this.attachEventListeners();
   }
-  
+
   async loadActivities() {
     try {
       const response = await fetch(this.dataFile);
-      
+
       // Detectar si es JSON o CSV por la extensión del archivo
       if (this.dataFile.endsWith('.json')) {
         const jsonData = await response.json();
@@ -57,15 +57,23 @@ class AdvancedCalendar {
       }
     } catch (error) {
       console.error('Error cargando actividades:', error);
-      this.activities = [];
+      console.warn('Usando datos de respaldo (fallback) debido a error de carga.');
+
+      // Fallback data
+      this.activities = [
+        { id: 1, fecha: "2025-11-15", titulo: "Ceremonia de Graduación", categoria: "Ceremonia", descripcion: "Licenciatura 4° Medio", lugar: "Auditorio", hora: "19:00" },
+        { id: 2, fecha: "2025-11-22", titulo: "Aniversario del Liceo", categoria: "Celebración", descripcion: "25 años de historia", lugar: "Gimnasio", hora: "10:00" },
+        { id: 3, fecha: "2025-12-05", titulo: "Muestra de Talleres", categoria: "Cultural", descripcion: "Cierre de talleres extraescolares", lugar: "Gimnasio", hora: "16:00" },
+        { id: 4, fecha: "2025-12-15", titulo: "Clausura Año Escolar", categoria: "Ceremonia", descripcion: "Cierre del año académico 2025", lugar: "Patio Central", hora: "10:00" }
+      ];
     }
   }
-  
+
   parseCSV(csvText) {
     const lines = csvText.trim().split('\n');
     const headers = lines[0].split(',');
     const activities = [];
-    
+
     for (let i = 1; i < lines.length; i++) {
       const values = lines[i].split(',');
       if (values.length >= headers.length) {
@@ -76,10 +84,10 @@ class AdvancedCalendar {
         activities.push(activity);
       }
     }
-    
+
     return activities;
   }
-  
+
   render() {
     this.container.innerHTML = `
       <div class="calendar-container">
@@ -128,7 +136,7 @@ class AdvancedCalendar {
       </div>
     `;
   }
-  
+
   renderCalendarGrid() {
     const firstDay = new Date(this.currentYear, this.currentMonth, 1);
     const lastDay = new Date(this.currentYear, this.currentMonth + 1, 0);
@@ -137,25 +145,25 @@ class AdvancedCalendar {
     const dayOfWeek = firstDay.getDay();
     const diff = dayOfWeek === 0 ? 6 : dayOfWeek - 1; // Si es domingo (0), retroceder 6 días
     startDate.setDate(startDate.getDate() - diff);
-    
+
     let html = `
       <div class="calendar-header">
         ${this.dayNames.map(day => `<div class="calendar-day-name">${day}</div>`).join('')}
       </div>
       <div class="calendar-body">
     `;
-    
+
     const currentDate = new Date(startDate);
-    
+
     for (let week = 0; week < 6; week++) {
       html += '<div class="calendar-week">';
-      
+
       for (let day = 0; day < 7; day++) {
         const dayActivities = this.getActivitiesForDate(currentDate);
         const isCurrentMonth = currentDate.getMonth() === this.currentMonth;
         const isToday = this.isToday(currentDate);
         const hasActivities = dayActivities.length > 0;
-        
+
         html += `
           <div class="calendar-day ${isCurrentMonth ? 'current-month' : 'other-month'} ${isToday ? 'today' : ''} ${hasActivities ? 'has-activities' : ''}" 
                data-date="${currentDate.toISOString().split('T')[0]}">
@@ -171,29 +179,29 @@ class AdvancedCalendar {
             </div>
           </div>
         `;
-        
+
         currentDate.setDate(currentDate.getDate() + 1);
       }
-      
+
       html += '</div>';
-      
+
       // Si ya pasamos del mes actual y no hay más actividades, terminamos
       if (currentDate.getMonth() !== this.currentMonth && week > 3) {
         break;
       }
     }
-    
+
     html += '</div>';
     return html;
   }
-  
+
   renderActivitiesList() {
     const monthActivities = this.getActivitiesForMonth();
-    
+
     if (monthActivities.length === 0) {
       return '<p class="text-muted">No hay actividades programadas para este mes.</p>';
     }
-    
+
     return monthActivities.map(activity => `
       <div class="activity-item card mb-2">
         <div class="card-body p-3">
@@ -213,7 +221,7 @@ class AdvancedCalendar {
       </div>
     `).join('');
   }
-  
+
   getActivitiesForDate(date) {
     const dateString = date.toISOString().split('T')[0];
     return this.activities.filter(activity => {
@@ -223,7 +231,7 @@ class AdvancedCalendar {
       return matchesDate && matchesCategory;
     });
   }
-  
+
   getActivitiesForMonth() {
     return this.activities.filter(activity => {
       const activityDate = new Date(activity.fecha);
@@ -232,12 +240,12 @@ class AdvancedCalendar {
       return matchesMonth && matchesCategory;
     }).sort((a, b) => new Date(a.fecha) - new Date(b.fecha));
   }
-  
+
   isToday(date) {
     const today = new Date();
     return date.toDateString() === today.toDateString();
   }
-  
+
   attachEventListeners() {
     // Navegación de meses
     document.getElementById('prevMonth').addEventListener('click', () => {
@@ -249,7 +257,7 @@ class AdvancedCalendar {
       this.render();
       this.attachEventListeners();
     });
-    
+
     document.getElementById('nextMonth').addEventListener('click', () => {
       this.currentMonth++;
       if (this.currentMonth > 11) {
@@ -259,7 +267,7 @@ class AdvancedCalendar {
       this.render();
       this.attachEventListeners();
     });
-    
+
     // Botón "Hoy"
     document.getElementById('todayBtn').addEventListener('click', () => {
       const today = new Date();
@@ -268,14 +276,14 @@ class AdvancedCalendar {
       this.render();
       this.attachEventListeners();
     });
-    
+
     // Filtro de categorías
     document.getElementById('categoryFilter').addEventListener('change', (e) => {
       this.selectedCategory = e.target.value;
       this.render();
       this.attachEventListeners();
     });
-    
+
     // Click en días del calendario
     document.querySelectorAll('.calendar-day').forEach(dayEl => {
       dayEl.addEventListener('click', (e) => {
@@ -284,22 +292,22 @@ class AdvancedCalendar {
       });
     });
   }
-  
+
   showDayDetails(dateString) {
     const activities = this.activities.filter(activity => activity.fecha === dateString);
     const date = new Date(dateString + 'T00:00:00');
-    
+
     if (activities.length === 0) {
       return;
     }
-    
-    const fechaStr = date.toLocaleDateString('es-CL', { 
-      weekday: 'long', 
-      day: 'numeric', 
+
+    const fechaStr = date.toLocaleDateString('es-CL', {
+      weekday: 'long',
+      day: 'numeric',
       month: 'long',
       year: 'numeric'
     });
-    
+
     // Crear modal si no existe
     let modal = document.getElementById('actividadModal');
     if (!modal) {
@@ -322,13 +330,13 @@ class AdvancedCalendar {
       `;
       document.body.appendChild(modal);
     }
-    
+
     // Actualizar contenido
     document.getElementById('actividadModalTitle').innerHTML = `
       <i class="bi bi-calendar-event me-2"></i>
       Actividades del día
     `;
-    
+
     // Generar lista de actividades con detalles
     const actividadesHTML = activities.map(activity => {
       const colorClass = this.categoryColors[activity.categoria] || 'bg-secondary text-white';
@@ -357,7 +365,7 @@ class AdvancedCalendar {
         </div>
       `;
     }).join('');
-    
+
     document.getElementById('actividadModalBody').innerHTML = `
       <div class="mb-3">
         <h6 class="text-muted mb-2"><i class="bi bi-calendar3 me-2"></i>Fecha</h6>
@@ -369,7 +377,7 @@ class AdvancedCalendar {
         ${actividadesHTML}
       </div>
     `;
-    
+
     // Mostrar modal
     const bsModal = new bootstrap.Modal(modal);
     bsModal.show();

@@ -118,6 +118,37 @@
     "cat": "Recordatorio",
     "pinned": false,
     "createdAt": "2025-09-20T09:30:00Z"
+  },
+  {
+    "id": "m16",
+    "title": "Campaña Solidaria de Navidad",
+    "body": "Iniciamos nuestra campaña solidaria 'Una Navidad para Todos'. Recolección de alimentos no perecibles y juguetes nuevos hasta el 10 de diciembre.",
+    "cat": "Solidaridad",
+    "pinned": true,
+    "createdAt": "2025-11-10T09:00:00Z"
+  },
+  {
+    "id": "m17",
+    "title": "Inicio Matrículas 2026",
+    "body": "El proceso de matrículas para el año 2026 comienza el 1 de diciembre. Horario de atención: 8:30 a 13:00 hrs en secretaría.",
+    "cat": "Admisión",
+    "pinned": true,
+    "createdAt": "2025-11-25T08:00:00Z"
+  },
+  {
+    "id": "m18",
+    "title": "Devolución de Textos Escolares",
+    "body": "Se solicita la devolución de textos escolares de biblioteca antes del 12 de diciembre para inventario anual.",
+    "cat": "Recordatorio",
+    "pinned": false,
+    "createdAt": "2025-12-01T10:00:00Z"
+  },
+  {
+    "id": "m19",
+    "title": "Cierre Administrativo",
+    "body": "El establecimiento cerrará sus puertas por receso de verano el 30 de diciembre. Atención de público se reanuda el 25 de febrero.",
+    "cat": "Información",
+    "pinned": false,
+    "createdAt": "2025-12-15T12:00:00Z"
   }
 ]
-

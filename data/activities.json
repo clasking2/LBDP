@@ -301,6 +301,36 @@
   },
   {
     "id": 31,
+    "fecha": "2025-11-05",
+    "titulo": "Operativo Dental",
+    "descripcion": "Atención dental gratuita para estudiantes",
+    "categoria": "Salud",
+    "lugar": "Enfermería",
+    "hora": "09:00",
+    "timestamp": "2025-11-05T09:00:00"
+  },
+  {
+    "id": 32,
+    "fecha": "2025-11-08",
+    "titulo": "Feria del Libro Usado",
+    "descripcion": "Intercambio y venta de libros usados",
+    "categoria": "Cultural",
+    "lugar": "Patio Central",
+    "hora": "10:00",
+    "timestamp": "2025-11-08T10:00:00"
+  },
+  {
+    "id": 33,
+    "fecha": "2025-11-12",
+    "titulo": "Taller para Padres",
+    "descripcion": "Estrategias de apoyo escolar en el hogar",
+    "categoria": "Reunión",
+    "lugar": "Biblioteca",
+    "hora": "19:00",
+    "timestamp": "2025-11-12T19:00:00"
+  },
+  {
+    "id": 34,
     "fecha": "2025-11-15",
     "titulo": "Ceremonia de Graduación 4º Medio",
     "descripcion": "Ceremonia de licenciatura promoción 2025",
@@ -310,7 +340,37 @@
     "timestamp": "2025-11-15T19:00:00"
   },
   {
-    "id": 32,
+    "id": 35,
+    "fecha": "2025-11-22",
+    "titulo": "Aniversario del Liceo",
+    "descripcion": "Celebración de los 25 años de nuestra institución",
+    "categoria": "Celebración",
+    "lugar": "Gimnasio",
+    "hora": "10:00",
+    "timestamp": "2025-11-22T10:00:00"
+  },
+  {
+    "id": 36,
+    "fecha": "2025-11-28",
+    "titulo": "Reunión de Apoderados General",
+    "descripcion": "Última reunión de apoderados del año",
+    "categoria": "Reunión",
+    "lugar": "Salas de Clase",
+    "hora": "18:30",
+    "timestamp": "2025-11-28T18:30:00"
+  },
+  {
+    "id": 37,
+    "fecha": "2025-12-05",
+    "titulo": "Muestra Anual de Talleres",
+    "descripcion": "Presentación final de talleres artísticos y deportivos",
+    "categoria": "Cultural",
+    "lugar": "Gimnasio",
+    "hora": "16:00",
+    "timestamp": "2025-12-05T16:00:00"
+  },
+  {
+    "id": 38,
     "fecha": "2025-12-08",
     "titulo": "Inmaculada Concepción",
     "descripcion": "Feriado religioso nacional",
@@ -320,7 +380,17 @@
     "timestamp": "2025-12-08T00:00:00"
   },
   {
-    "id": 33,
+    "id": 39,
+    "fecha": "2025-12-10",
+    "titulo": "Licenciatura 8° Básico",
+    "descripcion": "Ceremonia de graduación enseñanza básica",
+    "categoria": "Ceremonia",
+    "lugar": "Auditorio",
+    "hora": "10:00",
+    "timestamp": "2025-12-10T10:00:00"
+  },
+  {
+    "id": 40,
     "fecha": "2025-12-15",
     "titulo": "Clausura del Año Escolar 2025",
     "descripcion": "Ceremonia oficial de cierre del año académico",
@@ -330,7 +400,7 @@
     "timestamp": "2025-12-15T10:00:00"
   },
   {
-    "id": 34,
+    "id": 41,
     "fecha": "2025-12-25",
     "titulo": "Navidad",
     "descripcion": "Feriado religioso nacional - Natividad del Señor",
@@ -340,4 +410,3 @@
     "timestamp": "2025-12-25T00:00:00"
   }
 ]
-

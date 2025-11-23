@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Carga de Noticias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        .news-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-card h3 {
+            margin-top: 0;
+            color: #1418c4;
+        }
+
+        .news-card img {
+            max-width: 100%;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        .status {
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Test de Carga de Noticias</h1>
+    <div id="status"></div>
+    <div id="news-container"></div>
+
+    <script src="./js/news-loader.js"></script>
+    <script>
+        async function testNewsLoading() {
+            const statusDiv = document.getElementById('status');
+            const newsContainer = document.getElementById('news-container');
+
+            try {
+                console.log('Iniciando prueba de carga de noticias...');
+                await loadNewsFromJSON();
+
+                if (window.NEWS_DATA && window.NEWS_DATA.length > 0) {
+                    statusDiv.className = 'status success';
+                    statusDiv.innerHTML = `✅ ¡Éxito! Se cargaron ${window.NEWS_DATA.length} noticias correctamente.`;
+
+                    // Mostrar las noticias
+                    window.NEWS_DATA.forEach(news => {
+                        const card = document.createElement('div');
+                        card.className = 'news-card';
+                        card.innerHTML = `
+                            <h3>${news.title}</h3>
+                            <p><strong>Fecha:</strong> ${formatDate(news.date)}</p>
+                            <p>${news.excerpt}</p>
+                            ${news.images && news.images.length > 0 ? `<img src="${news.images[0]}" alt="${news.title}">` : ''}
+                        `;
+                        newsContainer.appendChild(card);
+                    });
+                } else {
+                    statusDiv.className = 'status error';
+                    statusDiv.innerHTML = '❌ Error: NEWS_DATA está vacío';
+                }
+            } catch (error) {
+                statusDiv.className = 'status error';
+                statusDiv.innerHTML = `❌ Error al cargar noticias: ${error.message}`;
+                console.error('Error en prueba:', error);
+            }
+        }
+
+        // Ejecutar prueba cuando se cargue la página
+        document.addEventListener('DOMContentLoaded', testNewsLoading);
+    </script>
+</body>
+
+</html>

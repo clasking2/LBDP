@@ -163,6 +163,82 @@
     "indicadores_evaluacion": "Escribe programas básicos en Python. Utiliza estructuras condicionales y ciclos. Resuelve problemas mediante algoritmos.",
     "retroalimentacion": "Revisión de código con sugerencias de mejora. Apoyo técnico disponible.",
     "curso": "2° Medio A"
+  },
+  {
+    "id": 16,
+    "fecha": "2025-11-04",
+    "asignatura": "Matemática",
+    "profesor": "Prof. María González",
+    "contenido": "Geometría: Semejanza y Teorema de Thales",
+    "estrategia_evaluacion": "Prueba Escrita",
+    "indicadores_evaluacion": "Aplica criterios de semejanza. Resuelve problemas geométricos usando Thales.",
+    "retroalimentacion": "Corrección en pizarra y guía de refuerzo.",
+    "curso": "1° Medio A"
+  },
+  {
+    "id": 17,
+    "fecha": "2025-11-06",
+    "asignatura": "Lenguaje y Comunicación",
+    "profesor": "Prof. Carlos Rojas",
+    "contenido": "Teatro: Análisis de obras dramáticas y puesta en escena",
+    "estrategia_evaluacion": "Actuación Grupal",
+    "indicadores_evaluacion": "Interpreta personajes con expresividad. Analiza conflicto dramático.",
+    "retroalimentacion": "Evaluación formativa durante ensayos y sumativa en presentación final.",
+    "curso": "2° Medio B"
+  },
+  {
+    "id": 18,
+    "fecha": "2025-11-11",
+    "asignatura": "Historia",
+    "profesor": "Prof. Pedro Valenzuela",
+    "contenido": "Educación Cívica: Instituciones del Estado",
+    "estrategia_evaluacion": "Debate",
+    "indicadores_evaluacion": "Argumenta sobre roles de instituciones. Respeta turnos y opiniones divergentes.",
+    "retroalimentacion": "Rúbrica de debate entregada post-actividad.",
+    "curso": "3° Medio A"
+  },
+  {
+    "id": 19,
+    "fecha": "2025-11-18",
+    "asignatura": "Ciencias - Física",
+    "profesor": "Prof. Fernando Muñoz",
+    "contenido": "Electricidad: Circuitos básicos y Ley de Ohm",
+    "estrategia_evaluacion": "Proyecto Práctico",
+    "indicadores_evaluacion": "Construye circuitos en serie y paralelo. Calcula resistencias y voltajes.",
+    "retroalimentacion": "Revisión funcional del circuito y reporte escrito.",
+    "curso": "4° Medio C"
+  },
+  {
+    "id": 20,
+    "fecha": "2025-11-25",
+    "asignatura": "Inglés",
+    "profesor": "Prof. Jennifer Smith",
+    "contenido": "Future Tense: Planes y predicciones",
+    "estrategia_evaluacion": "Roleplay",
+    "indicadores_evaluacion": "Utiliza 'will' y 'going to' correctamente. Mantiene fluidez en diálogo.",
+    "retroalimentacion": "Feedback oral inmediato.",
+    "curso": "1° Medio B"
+  },
+  {
+    "id": 21,
+    "fecha": "2025-12-02",
+    "asignatura": "Matemática",
+    "profesor": "Departamento de Matemática",
+    "contenido": "Examen Final: Contenidos del Semestre",
+    "estrategia_evaluacion": "Examen",
+    "indicadores_evaluacion": "Integra conocimientos de álgebra, geometría y datos.",
+    "retroalimentacion": "Resultados publicados en plataforma.",
+    "curso": "Todos los Niveles"
+  },
+  {
+    "id": 22,
+    "fecha": "2025-12-04",
+    "asignatura": "Lenguaje",
+    "profesor": "Departamento de Lenguaje",
+    "contenido": "Examen Final: Comprensión Lectora y Escritura",
+    "estrategia_evaluacion": "Examen",
+    "indicadores_evaluacion": "Comprende textos complejos. Redacta con coherencia y cohesión.",
+    "retroalimentacion": "Resultados publicados en plataforma.",
+    "curso": "Todos los Niveles"
   }
 ]
-
