@@ -32,22 +32,31 @@ function render() {
         return;
     }
 
+
     items.forEach((n, idx) => {
-        const col = document.createElement('div');
-        col.className = 'col-12 col-sm-6 col-lg-4 reveal';
-        col.style.transitionDelay = `${idx * 60}ms`;
-        col.innerHTML = `
+        console.log(`🎨 Renderizando item ${idx}:`, n);
+        try {
+            const col = document.createElement('div');
+            col.className = 'col-12 col-sm-6 col-lg-4 reveal';
+            col.style.transitionDelay = `${idx * 60}ms`;
+            console.log(`🎨 Creando HTML para: ${n.title}`);
+            col.innerHTML = `
       <article class="card h-100 card-hover">
-        <img class="thumb" src="${n.images[0]}" alt="${n.title}">
+        <img class="thumb" src="${n.images && n.images[0] ? n.images[0] : './assets/img/default.jpg'}" alt="${n.title}">
         <div class="card-body">
-          <span class="badge badge-liceo small">${n.category}</span>
-          <p class="text-muted small mb-1">${formatDate(n.date)}</p>
+          <span class="badge badge-liceo small">${n.category || 'General'}</span>
+          <p class="text-muted small mb-1">${window.formatDate ? window.formatDate(n.date) : n.date}</p>
           <h3 class="h6">${n.title}</h3>
-          <p class="small text-secondary">${n.excerpt}</p>
+          <p class="small text-secondary">${n.excerpt || ''}</p>
           <button class="btn btn-sm btn-primary-liceo" data-id="${n.id}">Ver detalle</button>
         </div>
       </article>`;
-        grid.appendChild(col);
+            console.log(`🎨 Agregando al grid...`);
+            grid.appendChild(col);
+            console.log(`✅ Item ${idx} agregado correctamente`);
+        } catch (error) {
+            console.error(`❌ Error renderizando item ${idx}:`, error);
+        }
     });
 
     if (pageInfo) {
